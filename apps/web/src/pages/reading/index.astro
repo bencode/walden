@@ -1,43 +1,79 @@
 ---
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
-import { extractFormalSeries } from '../../lib/formal-reading'
+import { books, bookOfEntry, slugInBook, titleFromBody } from '../../lib/books'
 
-const formalAll = await getCollection('ir-rag')
-const seriesList = extractFormalSeries(formalAll)
+const all = await getCollection('reading')
+
+const fmt = (d: Date) => d.toISOString().slice(0, 10)
+const orderOf = (order: number | undefined) => order ?? Number.MAX_SAFE_INTEGER
+
+const groupedBooks = books.map((book) => {
+  const articles = all
+    .filter((entry) => bookOfEntry(entry.id)?.id === book.id)
+    .map((entry) => {
+      const slug = slugInBook(entry.id, book)
+      return {
+        slug,
+        title: entry.data.title ?? titleFromBody(entry.body, slug),
+        date: entry.data.date,
+        order: orderOf(entry.data.order as number | undefined),
+      }
+    })
+    .sort((a, b) => a.order - b.order)
+  return { book, articles }
+})
+
+const hasAny = groupedBooks.some((g) => g.articles.length > 0)
 ---
 
-<BaseLayout title="Reading" description="Formal articles">
+<BaseLayout title="Reading" description="读书笔记">
   <article>
     <h1>Reading</h1>
-    <p class="chapter-meta">正式文章</p>
-    {
-      seriesList.length === 0 ? (
-        <p class="empty">nothing yet</p>
-      ) : (
-        <ul class="series-tree">
-          {seriesList.map((series) => (
-            <li class="series-tree-group">
-              <a class="series-tree-hub" href={series.href}>
-                {series.title}
-              </a>
-              {series.articles.length > 0 && (
-                <ul class="series-tree-children">
-                  {series.articles.map((article) => (
-                    <li class="series-tree-row">
-                      <span class="connector" aria-hidden="true">└─</span>
-                      <a class="title" href={article.href}>
-                        {article.title}
-                      </a>
-                      {article.draft && <span class="draft-tag">写中</span>}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
+    {hasAny ? (
+      groupedBooks.map(({ book, articles }) =>
+        articles.length === 0 ? null : (
+          <section class="book-section">
+            <h2 class="book-title">
+              <a href={`/reading/${book.id}`}>{book.title}</a>
+            </h2>
+            {book.subtitle && <p class="chapter-meta">{book.subtitle}</p>}
+            <ul class="chapter-list">
+              {articles.map((article) => (
+                <li class="chapter-row">
+                  <a class="title" href={`/reading/${book.id}/${article.slug}`}>
+                    {article.title}
+                  </a>
+                  <span class="dots" aria-hidden="true" />
+                  {article.date && (
+                    <time class="right" datetime={article.date.toISOString()}>
+                      {fmt(article.date)}
+                    </time>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ),
       )
-    }
+    ) : (
+      <p class="empty">nothing yet</p>
+    )}
   </article>
 </BaseLayout>
+
+<style>
+  .book-section + .book-section {
+    margin-top: 2rem;
+  }
+  .book-title {
+    margin-bottom: 0.25rem;
+  }
+  .book-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .book-title a:hover {
+    text-decoration: underline;
+  }
+</style>

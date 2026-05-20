@@ -10,15 +10,17 @@ Public article URLs must be semantic, short, and stable over time.
 - Do not expose chapter numbers, series numbers, dates, draft state, or other temporary markers in public paths.
 - Internal directory layout may help authoring, but must not define the public URL shape by default.
 
-### IR / RAG Routing
+### Reading Routing
 
-- Public namespace should use `/ir-rag/`, not `/ir-rag-course/`.
+- Reading content lives under `/reading/` and is grouped by book.
 - Preferred structure:
-  - `/ir-rag/`
-  - `/ir-rag/{series-slug}/`
-  - `/ir-rag/{series-slug}/{article-slug}/`
+  - `/reading/`
+  - `/reading/{book-id}/`
+  - `/reading/{book-id}/{article-slug}/`
 - Example:
-  - `/ir-rag/bm25/from-vsm-to-probability/`
+  - `/reading/ir/from-vsm-to-probability/`
+- `book-id` is a short identifier (e.g. `ir`), not the full book title.
+- `article-slug` is a semantic slug, not a chapter number.
 
 ### Slug Rules
 

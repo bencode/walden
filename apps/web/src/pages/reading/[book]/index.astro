@@ -1,13 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../../layouts/BaseLayout.astro'
-import {
-  books,
-  chapterLabel,
-  getBook,
-  slugInBook,
-  titleFromBody,
-} from '../../../lib/books'
+import { books, getBook, slugInBook, titleFromBody } from '../../../lib/books'
 
 export async function getStaticPaths() {
   return books.map((book) => ({ params: { book: book.id } }))
@@ -18,20 +12,21 @@ const book = getBook(bookId!)
 if (!book) throw new Error(`unknown book: ${bookId}`)
 
 const fmt = (d: Date) => d.toISOString().slice(0, 10)
+const orderOf = (order: number | undefined) => order ?? Number.MAX_SAFE_INTEGER
 
 const all = await getCollection('reading')
-const chapters = all
+const articles = all
   .filter((entry) => entry.id.startsWith(`${book.dirPrefix}/`))
   .map((entry) => {
     const slug = slugInBook(entry.id, book)
     return {
       slug,
-      label: chapterLabel(slug),
-      title: titleFromBody(entry.body, slug),
+      title: entry.data.title ?? titleFromBody(entry.body, slug),
       date: entry.data.date,
+      order: orderOf(entry.data.order as number | undefined),
     }
   })
-  .sort((a, b) => a.slug.localeCompare(b.slug))
+  .sort((a, b) => a.order - b.order)
 ---
 
 <BaseLayout title={book.title} description={book.subtitle}>
@@ -45,20 +40,19 @@ const chapters = all
     {book.subtitle && <p class="chapter-meta">{book.subtitle}</p>}
 
     {
-      chapters.length === 0 ? (
+      articles.length === 0 ? (
         <p class="empty">nothing yet</p>
       ) : (
         <ul class="chapter-list">
-          {chapters.map((c) => (
+          {articles.map((article) => (
             <li class="chapter-row">
-              <span class="num">{c.label}</span>
-              <a class="title" href={`/reading/${book.id}/${c.slug}`}>
-                {c.title}
+              <a class="title" href={`/reading/${book.id}/${article.slug}`}>
+                {article.title}
               </a>
               <span class="dots" aria-hidden="true" />
-              {c.date && (
-                <time class="right" datetime={c.date.toISOString()}>
-                  {fmt(c.date)}
+              {article.date && (
+                <time class="right" datetime={article.date.toISOString()}>
+                  {fmt(article.date)}
                 </time>
               )}
             </li>

@@ -2,7 +2,7 @@
 title: BM25 公式拆解
 date: 2026-04-23
 summary: BM25 公式的 idf、饱和、长度归一化三项，每项都是一篇论文当年解决的一个具体问题。逐项讲清楚。
-order: 1
+order: 2
 ---
 
 import CodeRunner from '@components/CodeRunner/CodeRunner.astro'
@@ -143,7 +143,7 @@ for ratio in [0.25, 0.5, 1.0, 2.0, 4.0]:
 
 BM25 是一个排序打分算法：给它一批文档和一个查询词，它为每篇文档算出一个相关度分数，分数高的排在前面 —— 这个分数就是搜索引擎或 RAG 候选召回的排序依据。几乎所有搜索引擎和 RAG 系统的关键词检索底下都跑它。
 
-[BM25 总览](/ir-rag/bm25) 给出了完整公式和三层直觉（稀有度 / 饱和 / 长度归一化）。这篇按 idf、饱和、长度归一化三项拆开，对每一项指出它在代码里的位置，再说明它为什么长成这个形式。
+[BM25 总览](/reading/ir/bm25) 给出了完整公式和三层直觉（稀有度 / 饱和 / 长度归一化）。这篇按 idf、饱和、长度归一化三项拆开，对每一项指出它在代码里的位置，再说明它为什么长成这个形式。
 
 ## 最小示例
 
@@ -385,8 +385,6 @@ $b < 1$ 保留了长文档的部分优势。理由：有些长文档覆盖更多
 
 这些数字**没有一阶原理支持**，都是实证的。Elasticsearch / Lucene 的默认就是这组，在通用文本上表现不错，但专业领域（医学 / 法律 / 代码搜索）往往要自己调。
 
-什么时候要调、怎么调、多字段加权的 BM25F 扩展，见 [参数调优与 BM25F](/ir-rag/bm25/tuning-and-bm25f)。
-
 ## 合成 · 完整 BM25
 
 把三项装回一起：
@@ -405,9 +403,4 @@ $b < 1$ 保留了长文档的部分优势。理由：有些长文档覆盖更多
 
 ## 参考来源
 
-本章推导主要依据几篇原文：RSJ weight 与 0.5 smoothing 来自 Robertson–Spärck Jones 1976 和 Cox 1970；PRP 来自 Robertson 1977；2-Poisson 来自 Harter 1975；$k_1 / b$ 的默认值来自 Robertson–Walker 1994 和 Spärck Jones–Walker–Robertson 2000。完整引用（带 DOI 和简评）见 [BM25 总览 § 参考资料](/ir-rag/bm25#参考资料)。
-
-## 延伸阅读
-
-- **[参数调优与 BM25F](/ir-rag/bm25/tuning-and-bm25f)**（写中）—— $k_1/b$ 在 collection 上怎么调、title/body/anchor 多字段打分
-- 回 [BM25 总览](/ir-rag/bm25)
+本章推导主要依据几篇原文：RSJ weight 与 0.5 smoothing 来自 Robertson–Spärck Jones 1976 和 Cox 1970；PRP 来自 Robertson 1977；2-Poisson 来自 Harter 1975；$k_1 / b$ 的默认值来自 Robertson–Walker 1994 和 Spärck Jones–Walker–Robertson 2000。完整引用（带 DOI 和简评）见 [BM25 总览 § 参考资料](/reading/ir/bm25#参考资料)。

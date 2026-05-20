@@ -2,13 +2,7 @@
 import { getCollection, render } from 'astro:content'
 import Toc from '../../../components/Toc.astro'
 import BaseLayout from '../../../layouts/BaseLayout.astro'
-import {
-  books,
-  chapterLabel,
-  getBook,
-  slugInBook,
-  titleFromBody,
-} from '../../../lib/books'
+import { books, getBook, slugInBook, titleFromBody } from '../../../lib/books'
 
 export async function getStaticPaths() {
   const all = await getCollection('reading')
@@ -36,26 +30,22 @@ if (!entry) throw new Error(`entry not found: ${entryId}`)
 
 const { Content, headings } = await render(entry)
 const slug = slugInBook(entry.id, book)
-const title = titleFromBody(entry.body, slug)
-const label = chapterLabel(slug)
+const title = entry.data.title ?? titleFromBody(entry.body, slug)
 const date = entry.data.date
 const fmt = (d: Date) => d.toISOString().slice(0, 10)
+const hasToc = headings.filter((h) => h.depth >= 2 && h.depth <= 3).length >= 3
 ---
 
-<BaseLayout title={title} description={book.title} hasToc={true}>
+<BaseLayout title={title} description={book.title} hasToc={hasToc}>
   <article data-source-file={entry.filePath}>
     <p class="breadcrumb">
       <a href="/reading">reading</a>
       <span class="sep">·</span>
       <a href={`/reading/${book.id}`}>{book.id}</a>
-      <span class="sep">·</span>
-      {label}
     </p>
     <h1>{title}</h1>
     <p class="chapter-meta">
       {book.title}
-      <span class="sep">·</span>
-      chapter {label}
       {date && (
         <>
           <span class="sep">·</span>
