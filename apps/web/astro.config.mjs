@@ -16,7 +16,7 @@ const remarkStripFirstH1 = () => (tree) => {
 // so Shiki skips them and the client-side mermaid script can render
 // them in place. Runs before Shiki since it's a remark (mdast) plugin.
 const remarkMermaid = () => (tree) => {
-  const escape = (s) =>
+  const escapeHtml = (s) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   const walk = (node) => {
     if (!node.children) return
@@ -25,7 +25,7 @@ const remarkMermaid = () => (tree) => {
       if (child.type === 'code' && child.lang === 'mermaid') {
         node.children[i] = {
           type: 'html',
-          value: `<pre class="mermaid">${escape(child.value)}</pre>`,
+          value: `<pre class="mermaid">${escapeHtml(child.value)}</pre>`,
         }
       } else {
         walk(child)
@@ -47,7 +47,7 @@ const externalLinksConfig = [
 ]
 
 export default defineConfig({
-  site: 'https://lambdacraft.dev',
+  site: 'https://qijun.io',
   integrations: [
     mdx({
       remarkPlugins: [remarkStripFirstH1, remarkMermaid, remarkMath],

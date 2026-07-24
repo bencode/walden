@@ -61,7 +61,7 @@ export function reviewSidecar(): AstroIntegration {
         server.middlewares.use('/__review', async (req, res) => {
           try {
             if (req.method === 'GET') {
-              // Query: /__review?file=src/content/posts/foo.mdx
+              // Query: /__review?file=src/pages/index.astro
               const url = new URL(req.url ?? '', 'http://internal')
               const file = url.searchParams.get('file') ?? ''
               const abs = resolveAbsFile(file)

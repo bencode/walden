@@ -1,27 +1,30 @@
 ---
-import 'katex/dist/katex.min.css'
+import '@fontsource-variable/recursive/full.css'
 import '../styles/global.css'
 import ReviewLayer from '../components/ReviewLayer.astro'
 
 type Props = {
   title: string
   description?: string
-  hasToc?: boolean
+  showChrome?: boolean
 }
 
-const { title, description, hasToc = false } = Astro.props
-const isDev = import.meta.env.DEV
+const {
+  title,
+  description = 'Qijun 的个人实验室：工具、实验与阶段性笔记。',
+  showChrome = true,
+} = Astro.props
 const siteName = 'LambdaCraft'
 const fullTitle = title === siteName ? title : `${title} · ${siteName}`
+const canonicalUrl = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site)
+  : Astro.url
+const isDev = import.meta.env.DEV
 
-const path = Astro.url.pathname
-const isActive = (href: string) =>
-  href === '/' ? path === '/' : path === href || path.startsWith(`${href}/`)
-
-const navItems: Array<{ href: string; label: string }> = [
-  { href: '/', label: 'home' },
-  { href: '/posts', label: 'posts' },
-  { href: '/reading', label: 'reading' },
+const navItems: ReadonlyArray<{ href: string; label: string }> = [
+  { href: '/#now', label: '现在' },
+  { href: '/#lab', label: '实验' },
+  { href: '/#notes', label: '笔记' },
 ]
 ---
 
@@ -31,79 +34,66 @@ const navItems: Array<{ href: string; label: string }> = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f4f7f7" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    {description && <meta name="description" content={description} />}
     <title>{fullTitle}</title>
   </head>
   <body>
-    <div class="shell">
-      <header class="site">
-        <a class="brand" href="/">(define lambdacraft)</a>
-        <nav>
-          {
-            navItems.map((item) => (
-              <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}> {item.label} </a>
-            ))
-          }
-        </nav>
-      </header>
+    {
+      showChrome ? (
+        <>
+          <a class="skip-link" href="#main-content">
+            跳到正文
+          </a>
 
-      <main class="layout" data-has-toc={hasToc ? 'true' : 'false'}>
-        {hasToc && (
-          <button
-            type="button"
-            class="toc-toggle"
-            data-action="toggle-toc"
-            aria-label="Toggle outline"
-            aria-expanded="false"
-          >
-            ☰
-          </button>
-        )}
-        <slot />
-      </main>
+          <div class="site-shell">
+            <header class="site-header">
+              <a class="wordmark" href="/" aria-label="LambdaCraft 首页">
+                <svg viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M8 5c4.6 0 6.2 5.2 8.1 10.2L21 28" />
+                  <path d="m16.1 15.2-6.6 12.6" />
+                </svg>
+                <span>LambdaCraft</span>
+              </a>
 
-      <footer class="site">
-        <span>(λ () (study math) (practice code))</span>
-        <span>© {new Date().getFullYear()} qijun.io</span>
-      </footer>
-    </div>
+              <nav class="site-nav" aria-label="主导航">
+                {navItems.map((item) => (
+                  <a href={item.href}>{item.label}</a>
+                ))}
+                <a
+                  class="external-link"
+                  href="https://github.com/bencode"
+                  aria-label="在 GitHub 查看 bencode"
+                >
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </nav>
+            </header>
 
-    {hasToc && (
-      <aside class="toc-drawer" data-state="closed" aria-hidden="true" inert>
-        <slot name="toc" />
-      </aside>
-    )}
+            <main id="main-content">
+              <slot />
+            </main>
 
-    <script>
-      import { initTocDrawer } from '../components/toc-drawer-controller'
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initTocDrawer)
-      } else {
-        initTocDrawer()
-      }
-    </script>
+            <footer class="site-footer">
+              <span>LambdaCraft / qijun.io</span>
+              <span>© {new Date().getFullYear()} Qijun</span>
+            </footer>
+          </div>
+        </>
+      ) : (
+        <main id="main-content">
+          <slot />
+        </main>
+      )
+    }
 
-    <script>
-      // Lazy-load mermaid only when the page actually contains diagrams.
-      const initMermaid = async () => {
-        const blocks = document.querySelectorAll<HTMLElement>('pre.mermaid')
-        if (blocks.length === 0) return
-        const { default: mermaid } = await import('mermaid')
-        mermaid.initialize({
-          startOnLoad: false,
-          theme: 'neutral',
-          securityLevel: 'strict',
-        })
-        await mermaid.run({ nodes: Array.from(blocks) })
-      }
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMermaid)
-      } else {
-        initMermaid()
-      }
-    </script>
-
-    {isDev && <ReviewLayer />}
+    {isDev && showChrome && <ReviewLayer />}
   </body>
 </html>

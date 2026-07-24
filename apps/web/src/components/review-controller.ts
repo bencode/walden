@@ -83,7 +83,9 @@ function formatStamp(iso: string): string {
 // polluted by marker glyphs on subsequent collectBlocks calls.
 function blockTextOf(el: HTMLElement): string {
   const clone = el.cloneNode(true) as HTMLElement
-  clone.querySelectorAll('.review-marker').forEach((n) => n.remove())
+  clone.querySelectorAll('.review-marker').forEach((node) => {
+    node.remove()
+  })
   return normalize(clone.textContent ?? '')
 }
 
@@ -424,5 +426,7 @@ function initForArticle(article: HTMLElement): void {
 
 export function initReview(): void {
   const articles = document.querySelectorAll<HTMLElement>('article[data-source-file]')
-  articles.forEach((article) => initForArticle(article))
+  articles.forEach((article) => {
+    initForArticle(article)
+  })
 }
