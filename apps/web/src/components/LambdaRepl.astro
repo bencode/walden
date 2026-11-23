@@ -1,0 +1,48 @@
+---
+const initialCode = '((λ (x) (* x x)) 7)'
+---
+
+<form
+  class="mb-14 flex items-center gap-2.5 rounded-[10px] border border-hair transition-colors focus-within:border-mute px-4 py-3.5 font-mono text-[13.5px]"
+  data-lambda-repl
+>
+  <label class="text-mute" for="lambda-repl-input">λ&gt;</label>
+  <input
+    id="lambda-repl-input"
+    class="min-w-0 flex-1 bg-transparent text-fg outline-none focus-visible:outline-none"
+    name="code"
+    value={initialCode}
+    placeholder={initialCode}
+    spellcheck="false"
+    autocomplete="off"
+    aria-describedby="lambda-repl-output"
+  />
+  <output id="lambda-repl-output" class="whitespace-nowrap text-mute" aria-live="polite">⇒ 49</output>
+  <button
+    class="rounded border border-hair px-1.5 text-[12px] text-mute hover:text-fg"
+    type="submit"
+    aria-label="求值">↵</button
+  >
+</form>
+
+<script>
+  import { getSchemeKernel } from './CodeRunner/runtime/scheme/kernel'
+
+  const form = document.querySelector<HTMLFormElement>('[data-lambda-repl]')
+  const output = form?.querySelector('output')
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault()
+    if (!output) return
+    const code = String(new FormData(form).get('code') ?? '').replaceAll('λ', 'lambda')
+    output.textContent = '…'
+    const result = await getSchemeKernel().run(code)
+    const failure = result.error ?? (result.stderr.trim() || null)
+    const value = result.value_repr ?? (result.stdout.trim() || null)
+    output.textContent = failure
+      ? `✗ ${failure.split('\n')[0]}`
+      : value
+        ? `⇒ ${value}`
+        : '⇒ 无返回值'
+  })
+</script>

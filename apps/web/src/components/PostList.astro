@@ -1,0 +1,52 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+type Props = {
+  posts: ReadonlyArray<CollectionEntry<'posts'>>
+}
+
+const kindLabels: Record<CollectionEntry<'posts'>['data']['kind'], string> = {
+  essay: '长文',
+  thought: '想法',
+  update: '动态',
+  log: '记录',
+}
+
+const { posts } = Astro.props
+const sorted = [...posts].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+const years = [...new Set(sorted.map((post) => post.data.date.getUTCFullYear()))]
+const isoDate = (date: Date) => date.toISOString().slice(0, 10)
+---
+
+{
+  years.map((year) => (
+    <section class="mb-9" aria-labelledby={`year-${year}`}>
+      <h2 id={`year-${year}`} class="mb-2 font-medium text-[13px] text-mute">
+        {year}
+      </h2>
+      <ol>
+        {sorted
+          .filter((post) => post.data.date.getUTCFullYear() === year)
+          .map((post) => (
+            <li>
+              <a
+                class="-mx-3 grid grid-cols-[1fr_auto] gap-4 rounded-lg px-3 py-2.5 transition-colors hover:bg-hover"
+                href={`/posts/${post.id}`}
+              >
+                <span>
+                  <span class="font-medium">{post.data.title}</span>
+                  <span class="ml-2 text-[13px] text-mute">{kindLabels[post.data.kind]}</span>
+                </span>
+                <time
+                  class="font-mono text-[13px] text-mute leading-[1.9]"
+                  datetime={isoDate(post.data.date)}
+                >
+                  {isoDate(post.data.date).slice(5)}
+                </time>
+              </a>
+            </li>
+          ))}
+      </ol>
+    </section>
+  ))
+}

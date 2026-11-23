@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content'
+import PostList from '../../components/PostList.astro'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+
+const posts = await getCollection('posts', ({ data }) => !data.draft)
+---
+
+<BaseLayout title="文章">
+  <h1 class="mb-10 font-semibold text-2xl tracking-[-0.02em]">文章</h1>
+  <PostList posts={posts} />
+</BaseLayout>

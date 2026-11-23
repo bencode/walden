@@ -1,5 +1,6 @@
 ---
-import '@fontsource-variable/recursive/full.css'
+import '@fontsource-variable/geist'
+import '@fontsource-variable/geist-mono'
 import '../styles/global.css'
 import ReviewLayer from '../components/ReviewLayer.astro'
 
@@ -7,24 +8,28 @@ type Props = {
   title: string
   description?: string
   showChrome?: boolean
+  ogType?: 'website' | 'article'
+  publishedTime?: string
+  tags?: ReadonlyArray<string>
 }
 
+const siteName = '(λ Qijun)'
 const {
   title,
-  description = 'Qijun 的个人实验室：工具、实验与阶段性笔记。',
+  description = '大鱼的个人博客：长文、想法、动态和记录。',
   showChrome = true,
+  ogType = 'website',
+  publishedTime,
+  tags = [],
 } = Astro.props
-const siteName = 'LambdaCraft'
 const fullTitle = title === siteName ? title : `${title} · ${siteName}`
-const canonicalUrl = Astro.site
-  ? new URL(Astro.url.pathname, Astro.site)
-  : Astro.url
+const canonicalUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url
 const isDev = import.meta.env.DEV
+const currentPath = Astro.url.pathname
 
 const navItems: ReadonlyArray<{ href: string; label: string }> = [
-  { href: '/#now', label: '现在' },
-  { href: '/#lab', label: '实验' },
-  { href: '/#notes', label: '笔记' },
+  { href: '/posts', label: '文章' },
+  { href: 'https://github.com/bencode', label: 'GitHub' },
 ]
 ---
 
@@ -32,59 +37,60 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f4f7f7" />
-    <meta property="og:type" content="website" />
+    <meta name="author" content="Qijun" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {tags.map((tag) => <meta property="article:tag" content={tag} />)}
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{fullTitle}</title>
   </head>
-  <body>
+  <body class="min-h-screen bg-bg font-sans text-[15px] text-fg leading-[1.7] antialiased">
     {
       showChrome ? (
         <>
-          <a class="skip-link" href="#main-content">
+          <a
+            class="sr-only z-50 rounded bg-bg px-3 py-2 underline focus:fixed focus:top-4 focus:left-4 focus:not-sr-only"
+            href="#main-content"
+          >
             跳到正文
           </a>
-
-          <div class="site-shell">
-            <header class="site-header">
-              <a class="wordmark" href="/" aria-label="LambdaCraft 首页">
-                <svg viewBox="0 0 32 32" aria-hidden="true">
-                  <path d="M8 5c4.6 0 6.2 5.2 8.1 10.2L21 28" />
-                  <path d="m16.1 15.2-6.6 12.6" />
-                </svg>
-                <span>LambdaCraft</span>
+          <div class="mx-auto flex min-h-screen w-full max-w-[640px] flex-col px-6 pt-16 pb-20 sm:pt-24">
+            <header class="mb-14 flex items-center justify-between gap-4">
+              <a class="font-semibold tracking-[-0.01em]" href="/" aria-label={`${siteName} 首页`}>
+                {siteName}
               </a>
-
-              <nav class="site-nav" aria-label="主导航">
-                {navItems.map((item) => (
-                  <a href={item.href}>{item.label}</a>
-                ))}
-                <a
-                  class="external-link"
-                  href="https://github.com/bencode"
-                  aria-label="在 GitHub 查看 bencode"
-                >
-                  GitHub <span aria-hidden="true">↗</span>
-                </a>
+              <nav class="flex gap-1 text-[14px]" aria-label="主导航">
+                {navItems.map((item) => {
+                  const current = currentPath.startsWith(item.href)
+                  return (
+                    <a
+                      class:list={[
+                        'rounded-md px-2.5 py-1.5 transition-colors hover:bg-hover hover:text-fg',
+                        current ? 'bg-hover text-fg' : 'text-mute',
+                      ]}
+                      href={item.href}
+                      aria-current={current ? 'page' : undefined}
+                    >
+                      {item.label}
+                    </a>
+                  )
+                })}
               </nav>
             </header>
-
-            <main id="main-content">
+            <main id="main-content" class="flex-1">
               <slot />
             </main>
-
-            <footer class="site-footer">
-              <span>LambdaCraft / qijun.io</span>
-              <span>© {new Date().getFullYear()} Qijun</span>
-            </footer>
+            <footer class="mt-16 text-[13px] text-mute">© {new Date().getFullYear()} Qijun</footer>
           </div>
         </>
       ) : (
@@ -95,5 +101,24 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
     }
 
     {isDev && showChrome && <ReviewLayer />}
+    <script>
+      const renderMermaidDiagrams = async () => {
+        const diagrams = document.querySelectorAll<HTMLElement>('.mermaid')
+        if (diagrams.length === 0) return
+
+        const { default: mermaid } = await import('mermaid')
+        const dark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: dark ? 'dark' : 'neutral',
+          securityLevel: 'strict',
+        })
+        await mermaid.run({ nodes: [...diagrams] })
+      }
+
+      void renderMermaidDiagrams().catch((error: unknown) => {
+        console.error('Mermaid 图表渲染失败', error)
+      })
+    </script>
   </body>
 </html>

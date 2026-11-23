@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>大鱼的工程笔记</title>
   <rect width="64" height="64" fill="#f4f7f7"/>
   <path d="M8 8h48v48H8z" fill="none" stroke="#1746a2" stroke-width="3"/>
   <path d="M20 14c9 0 11.5 11 15.5 25L41 54M35.5 39 27 54" fill="none" stroke="#1746a2" stroke-linecap="square" stroke-width="6"/>

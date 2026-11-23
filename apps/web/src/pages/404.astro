@@ -2,14 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout
-  title="未找到"
-  description="这个实验不存在，或已经从 LambdaCraft 下线。"
->
-  <section class="error-page" aria-labelledby="error-title">
-    <p class="error-code">404 / GONE</p>
-    <h1 id="error-title">这个实验不存在，<br />或已经下线。</h1>
-    <p>旧内容不会自动迁移到新的花园。</p>
-    <a class="primary-link" href="/">返回实验室</a>
+<BaseLayout title="未找到" description="这个页面不存在，或已经下线。">
+  <section aria-labelledby="error-title">
+    <p class="mb-3 font-mono text-[13px] text-mute">404</p>
+    <h1 id="error-title" class="mb-4 font-semibold text-2xl tracking-[-0.02em]">
+      这个页面不存在，或已经下线。
+    </h1>
+    <a class="underline decoration-mute underline-offset-[3px] hover:decoration-fg" href="/">回到首页</a>
   </section>
 </BaseLayout>
