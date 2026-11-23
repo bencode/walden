@@ -18,7 +18,7 @@ if (!appId || !appSecret) {
   process.exit(1)
 }
 
-async function main() {
+async function main(appId: string, appSecret: string) {
   console.log('Getting access token...')
   const token = await getAccessToken(appId, appSecret)
   console.log('Access token obtained.')
@@ -42,7 +42,7 @@ async function main() {
   console.log('Go to mp.weixin.qq.com -> Draft to preview.')
 }
 
-main().catch((err) => {
+main(appId, appSecret).catch((err) => {
   console.error('Publish failed:', err)
   process.exit(1)
 })

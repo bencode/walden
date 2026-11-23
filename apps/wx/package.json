@@ -7,10 +7,10 @@
     "post": "tsx src/publish.ts"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "tsx": "^4.19.3",
-    "typescript": "^5.7.3"
+    "tsx": "^4.23.12",
+    "typescript": "^6.0.3"
   }
 }

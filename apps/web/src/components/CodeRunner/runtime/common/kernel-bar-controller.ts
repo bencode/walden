@@ -22,6 +22,7 @@ export function initKernelBar(root: HTMLElement): void {
     console.error('KernelBar: missing required elements', root)
     return
   }
+  const { statusEl, resetBtn, labelEl } = els
 
   const langRaw = root.dataset.lang ?? 'python'
   if (!isLang(langRaw)) {
@@ -30,7 +31,7 @@ export function initKernelBar(root: HTMLElement): void {
   }
 
   const kernel = getKernel(langRaw)
-  els.labelEl.textContent = kernel.label
+  labelEl.textContent = kernel.label
 
   let initLabel = ''
   let initState: 'idle' | 'initializing' | 'ready' | 'error' = 'idle'
@@ -38,32 +39,32 @@ export function initKernelBar(root: HTMLElement): void {
 
   function render(): void {
     if (initState === 'initializing') {
-      els!.statusEl.textContent = initLabel || '正在启动...'
-      els!.statusEl.dataset.state = 'loading'
-      els!.resetBtn.disabled = true
+      statusEl.textContent = initLabel || '正在启动...'
+      statusEl.dataset.state = 'loading'
+      resetBtn.disabled = true
       return
     }
     if (initState === 'error') {
-      els!.statusEl.textContent = initLabel || '内核启动失败'
-      els!.statusEl.dataset.state = 'error'
-      els!.resetBtn.disabled = true
+      statusEl.textContent = initLabel || '内核启动失败'
+      statusEl.dataset.state = 'error'
+      resetBtn.disabled = true
       return
     }
     if (packageMsg) {
-      els!.statusEl.textContent = packageMsg
-      els!.statusEl.dataset.state = 'loading'
-      els!.resetBtn.disabled = true
+      statusEl.textContent = packageMsg
+      statusEl.dataset.state = 'loading'
+      resetBtn.disabled = true
       return
     }
     if (initState === 'ready') {
-      els!.statusEl.textContent = '就绪'
-      els!.statusEl.dataset.state = 'ready'
-      els!.resetBtn.disabled = !kernel.supportsReset
+      statusEl.textContent = '就绪'
+      statusEl.dataset.state = 'ready'
+      resetBtn.disabled = !kernel.supportsReset
       return
     }
-    els!.statusEl.textContent = '尚未启动（点任意 cell 的 ▶ 即可启动）'
-    els!.statusEl.dataset.state = 'idle'
-    els!.resetBtn.disabled = true
+    statusEl.textContent = '尚未启动（点任意 cell 的 ▶ 即可启动）'
+    statusEl.dataset.state = 'idle'
+    resetBtn.disabled = true
   }
 
   kernel.subscribe((state, message) => {
@@ -77,21 +78,21 @@ export function initKernelBar(root: HTMLElement): void {
     render()
   })
 
-  els.resetBtn.addEventListener('click', async () => {
-    if (!els) return
-    els.resetBtn.disabled = true
-    const original = els.resetBtn.textContent
-    els.resetBtn.textContent = '重置中...'
+  resetBtn.addEventListener('click', async () => {
+    resetBtn.disabled = true
+    const original = resetBtn.textContent
+    resetBtn.textContent = '重置中...'
     try {
       await kernel.reset()
-      els.resetBtn.textContent = '已重置 ✓'
+      resetBtn.textContent = '已重置 ✓'
       setTimeout(() => {
-        els!.resetBtn.textContent = original
-        els!.resetBtn.disabled = false
+        resetBtn.textContent = original
+        resetBtn.disabled = false
       }, 1200)
-    } catch {
-      els.resetBtn.textContent = original
-      els.resetBtn.disabled = false
+    } catch (error) {
+      console.error('KernelBar: reset failed', error)
+      resetBtn.textContent = original
+      resetBtn.disabled = false
     }
   })
 }

@@ -22,11 +22,7 @@ function queryCellEls(root: HTMLElement): CellEls | null {
   return { editorContainer, outputContainer, statusEl }
 }
 
-function setCellState(
-  statusEl: HTMLElement,
-  state: CellState,
-  message?: string,
-): void {
+function setCellState(statusEl: HTMLElement, state: CellState, message?: string): void {
   statusEl.dataset.state = state
   if (state === 'running') {
     statusEl.textContent = message ?? '运行中...'
@@ -43,6 +39,7 @@ export function initCell(root: HTMLElement): void {
     console.error('CodeRunner: missing required elements', root)
     return
   }
+  const { editorContainer, outputContainer, statusEl } = els
 
   const langRaw = root.dataset.lang ?? 'python'
   if (!isLang(langRaw)) {
@@ -53,31 +50,26 @@ export function initCell(root: HTMLElement): void {
   const initialCode = root.dataset.initialCode ?? ''
   const kernel = getKernel(langRaw)
 
-  const editor: EditorHandle = createEditor(
-    els.editorContainer,
-    initialCode,
-    langRaw,
-    () => {
-      void runCell()
-    },
-  )
+  const editor: EditorHandle = createEditor(editorContainer, initialCode, langRaw, () => {
+    void runCell()
+  })
 
-  setCellState(els.statusEl, 'idle')
+  setCellState(statusEl, 'idle')
 
   async function runCell(): Promise<void> {
     const code = editor.getValue()
     if (!code.trim()) return
 
-    setCellState(els!.statusEl, 'running')
-    clearOutput(els!.outputContainer)
+    setCellState(statusEl, 'running')
+    clearOutput(outputContainer)
 
     try {
       const result = await kernel.run(code)
-      renderResult(els!.outputContainer, result)
-      setCellState(els!.statusEl, result.error ? 'error' : 'idle')
+      renderResult(outputContainer, result)
+      setCellState(statusEl, result.error ? 'error' : 'idle')
     } catch (err) {
-      renderStatus(els!.outputContainer, `运行失败: ${String(err)}`, 'error')
-      setCellState(els!.statusEl, 'error')
+      renderStatus(outputContainer, `运行失败: ${String(err)}`, 'error')
+      setCellState(statusEl, 'error')
     }
   }
 }

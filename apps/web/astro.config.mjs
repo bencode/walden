@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config'
 import mdx from '@astrojs/mdx'
+import { unified } from '@astrojs/markdown-remark'
+import tailwindcss from '@tailwindcss/vite'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import rehypeExternalLinks from 'rehype-external-links'
@@ -16,8 +18,7 @@ const remarkStripFirstH1 = () => (tree) => {
 // so Shiki skips them and the client-side mermaid script can render
 // them in place. Runs before Shiki since it's a remark (mdast) plugin.
 const remarkMermaid = () => (tree) => {
-  const escapeHtml = (s) =>
-    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   const walk = (node) => {
     if (!node.children) return
     for (let i = 0; i < node.children.length; i += 1) {
@@ -36,7 +37,7 @@ const remarkMermaid = () => (tree) => {
 }
 
 const shikiConfig = {
-  theme: 'github-light-default',
+  themes: { light: 'github-light-default', dark: 'github-dark-default' },
   wrap: false,
 }
 
@@ -46,18 +47,20 @@ const externalLinksConfig = [
   { target: '_blank', rel: ['noopener', 'noreferrer'] },
 ]
 
+const markdownProcessor = unified({
+  remarkPlugins: [remarkStripFirstH1, remarkMermaid, remarkMath],
+  rehypePlugins: [rehypeKatex, externalLinksConfig],
+})
+
 export default defineConfig({
-  site: 'https://qijun.io',
-  integrations: [
-    mdx({
-      remarkPlugins: [remarkStripFirstH1, remarkMermaid, remarkMath],
-      rehypePlugins: [rehypeKatex, externalLinksConfig],
-    }),
-    reviewSidecar(),
-  ],
+  site: 'https://blog.qijun.io',
+  compressHTML: true,
+  integrations: [mdx(), reviewSidecar()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   markdown: {
-    remarkPlugins: [remarkStripFirstH1, remarkMermaid, remarkMath],
-    rehypePlugins: [rehypeKatex, externalLinksConfig],
+    processor: markdownProcessor,
     shikiConfig,
   },
 })
