@@ -54,7 +54,7 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{fullTitle}</title>
   </head>
-  <body class="min-h-screen bg-bg font-sans text-[15px] text-fg leading-[1.7] antialiased">
+  <body class="min-h-screen bg-bg font-sans text-[16px] text-fg leading-[1.7] antialiased">
     {
       showChrome ? (
         <>
@@ -64,7 +64,7 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
           >
             跳到正文
           </a>
-          <div class="mx-auto flex min-h-screen w-full max-w-[640px] flex-col px-6 pt-16 pb-20 sm:pt-24">
+          <div class="mx-auto flex min-h-screen w-full max-w-[680px] flex-col px-6 pt-16 pb-20 sm:pt-24">
             <header class="mb-14 flex items-center justify-between gap-4">
               <a class="font-semibold tracking-[-0.01em]" href="/" aria-label={`${siteName} 首页`}>
                 {siteName}
@@ -90,7 +90,7 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
             <main id="main-content" class="flex-1">
               <slot />
             </main>
-            <footer class="mt-16 text-[13px] text-mute">© {new Date().getFullYear()} Qijun</footer>
+            <footer class="mt-16 text-[13px] text-mute">© {new Date().getFullYear()} qijun.io</footer>
           </div>
         </>
       ) : (

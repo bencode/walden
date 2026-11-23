@@ -95,7 +95,8 @@
   padding: 0.1em 0.35em;
 }
 .prose-body pre {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem 1.125rem;
   overflow-x: auto;
   border: 1px solid var(--hair);
@@ -108,15 +109,16 @@
 }
 .prose-body table {
   display: block;
-  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   border-collapse: collapse;
   font-size: 0.875rem;
 }
 .prose-body th,
 .prose-body td {
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 1.25rem 0.5rem 0;
   border-bottom: 1px solid var(--hair);
   text-align: left;
   vertical-align: top;

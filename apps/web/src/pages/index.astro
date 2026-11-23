@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content'
-import LambdaRepl from '../components/LambdaRepl.astro'
 import PostList from '../components/PostList.astro'
 import BaseLayout from '../layouts/BaseLayout.astro'
 
@@ -8,6 +7,5 @@ const posts = await getCollection('posts', ({ data }) => !data.draft)
 ---
 
 <BaseLayout title="(λ Qijun)">
-  <LambdaRepl />
   <PostList posts={posts} />
 </BaseLayout>
