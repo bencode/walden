@@ -52,6 +52,8 @@
 
 /* 文章正文 */
 .prose-body {
+  /* Tables, figures and diagrams break out of the text column up to this width. */
+  --wide: min(960px, 100vw - 48px);
   line-height: 1.8;
 }
 .prose-body h2 {
@@ -60,7 +62,6 @@
   font-weight: 600;
   letter-spacing: -0.01em;
   scroll-margin-top: 1.5rem;
-  text-wrap: balance;
 }
 .prose-body h3 {
   margin: 2rem 0 0.75rem;
@@ -141,10 +142,49 @@
   color: var(--mute);
 }
 .prose-body .mermaid {
-  margin: 2rem 0;
+  width: var(--wide);
+  margin: 2rem calc(50% - var(--wide) / 2);
   overflow-x: auto;
   border: 0;
   background: transparent;
+}
+.prose-body .mermaid svg {
+  display: block;
+  margin-inline: auto;
+}
+@media (min-width: 1024px) {
+  .prose-body table {
+    display: table;
+    width: var(--wide);
+    max-width: none;
+    margin-inline: calc(50% - var(--wide) / 2);
+  }
+}
+.prose-body img {
+  display: block;
+  max-width: var(--wide);
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.prose-body p:has(> img) {
+  margin-bottom: 0.75rem;
+}
+/* Markdown captions: an emphasized paragraph right after an image. CJK has no italic. */
+.prose-body p:has(> img) + p > em:only-child {
+  display: block;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--mute);
+  text-align: center;
+}
+.prose-body p:has(> img) + p:has(> em:only-child) {
+  margin-top: 0;
+}
+.prose-body .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* Shiki 双主题：只输出 --shiki-light / --shiki-dark 变量，按配色方案选用 */

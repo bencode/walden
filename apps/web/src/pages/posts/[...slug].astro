@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
+import 'katex/dist/katex.min.css'
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft)
@@ -34,7 +35,7 @@ const publishedTime = post.data.date.toISOString()
         <time datetime={publishedTime}>{publishedTime.slice(0, 10)}</time>
         {post.data.tags.length > 0 && <span> · {post.data.tags.join(' · ')}</span>}
       </p>
-      <h1 class="text-balance font-semibold text-[28px] leading-[1.3] tracking-[-0.02em]">
+      <h1 class="font-semibold text-[28px] leading-[1.3] tracking-[-0.02em]">
         {post.data.title}
       </h1>
       <p class="mt-4 text-mute">{post.data.summary}</p>
