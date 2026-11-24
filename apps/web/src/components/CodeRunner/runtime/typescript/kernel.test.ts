@@ -21,9 +21,7 @@ describe('splitLastExpression', () => {
     ].join('\n')
     const { body, trailing } = splitLastExpression(code)
     expect(body).toBe('const xs = [0, 1, 2, 3, 4, 5, 6, 7]\n')
-    expect(trailing).toBe(
-      'xs\n  .map(x => x + 1)\n  .filter(x => x % 2 === 1)\n  .slice(0, 3)',
-    )
+    expect(trailing).toBe('xs\n  .map(x => x + 1)\n  .filter(x => x % 2 === 1)\n  .slice(0, 3)')
   })
 
   it('returns null trailing when the last line is statement-like', () => {

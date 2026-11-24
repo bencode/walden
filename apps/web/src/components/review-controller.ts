@@ -35,7 +35,8 @@ type NotesResponse = { notes: ReviewNote[] }
 // client into an infinite retry loop.
 type SaveResponse = { ok: boolean; note?: ReviewNote; id?: string; sidecar: string; error?: string }
 
-const EXCLUDE_SELECTOR = '.coderunner-cell, .coderunner-kernel-bar, pre, figure, .toc-toggle, .review-gutter, .review-marker'
+const EXCLUDE_SELECTOR =
+  '.coderunner-cell, .coderunner-kernel-bar, pre, figure, .toc-toggle, .review-gutter, .review-marker'
 const MIN_CARD_GAP = 12 // px between stacked cards
 
 // ─── helpers ────────────────────────────────────────────────────────────
@@ -92,7 +93,23 @@ function blockTextOf(el: HTMLElement): string {
 // Content blocks we care about: paragraphs, headings, lists, blockquotes,
 // tables, figures. Skip inline scripts, injected style tags, and our own
 // gutter container.
-const BLOCK_TAGS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'blockquote', 'pre', 'table', 'figure', 'div', 'hr'])
+const BLOCK_TAGS = new Set([
+  'p',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'ul',
+  'ol',
+  'blockquote',
+  'pre',
+  'table',
+  'figure',
+  'div',
+  'hr',
+])
 
 function collectBlocks(article: HTMLElement): BlockMeta[] {
   const children = Array.from(article.children) as HTMLElement[]
@@ -121,16 +138,19 @@ function collectBlocks(article: HTMLElement): BlockMeta[] {
 // mirrors increa-reader's findBestMarkdownBlock.
 function findBlock(blocks: BlockMeta[], pos: ReviewPosition): BlockMeta | null {
   const target = pos.blockText.trim()
-  const scoped = pos.headingPath.length > 0
-    ? blocks.filter((b) => arraysEqual(b.headingPath, pos.headingPath))
-    : blocks
+  const scoped =
+    pos.headingPath.length > 0
+      ? blocks.filter((b) => arraysEqual(b.headingPath, pos.headingPath))
+      : blocks
 
   if (target) {
     const exact = scoped.find((b) => b.text === target)
     if (exact) return exact
     const partial = scoped.find((b) => b.text.includes(target) || target.includes(b.text))
     if (partial) return partial
-    const global = blocks.find((b) => b.text === target || b.text.includes(target) || target.includes(b.text))
+    const global = blocks.find(
+      (b) => b.text === target || b.text.includes(target) || target.includes(b.text),
+    )
     if (global) return global
   }
 
@@ -340,11 +360,15 @@ function initForArticle(article: HTMLElement): void {
       }
       committing = true
       ta.disabled = true
-      const note = await saveNote(file, {
-        headingPath: block.headingPath,
-        blockText: block.text,
-        blockIndex: block.index,
-      }, content)
+      const note = await saveNote(
+        file,
+        {
+          headingPath: block.headingPath,
+          blockText: block.text,
+          blockIndex: block.index,
+        },
+        content,
+      )
       if (!note) {
         committing = false
         ta.disabled = false

@@ -157,7 +157,10 @@ export function parseNotesFromSidecar(text: string): ReviewNote[] {
     const headingPath =
       sectionRaw === '(top)' || sectionRaw === ''
         ? []
-        : sectionRaw.split(' › ').map((s) => s.trim()).filter(Boolean)
+        : sectionRaw
+            .split(' › ')
+            .map((s) => s.trim())
+            .filter(Boolean)
 
     // Heading stamp is local-time; encode back to ISO preserving the local
     // offset so the client renders the same clock time it was written at.

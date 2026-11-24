@@ -101,10 +101,7 @@ const api = {
     await ensureReady(progressCb)
   },
 
-  async runCode(
-    code: string,
-    progressCb?: (msg: string) => void,
-  ): Promise<CellResult> {
+  async runCode(code: string, progressCb?: (msg: string) => void): Promise<CellResult> {
     await ensureReady()
     try {
       await pyodide.loadPackagesFromImports(code, {

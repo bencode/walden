@@ -12,8 +12,8 @@
 //   (3) Add a matching render branch in common/output.ts
 // The protocol is duck-typed dispatch — additive, non-breaking.
 
-import type { CellResult } from './types'
 import { formatValue } from './js-format'
+import type { CellResult } from './types'
 
 export function detectRichOutput(value: unknown): Partial<CellResult> {
   if (value === undefined) return {}

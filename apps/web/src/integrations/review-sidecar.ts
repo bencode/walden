@@ -3,17 +3,17 @@
 //
 // Only runs in `astro dev`; production builds never load this middleware.
 
-import type { AstroIntegration } from 'astro'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import path from 'node:path'
+import type { AstroIntegration } from 'astro'
 import {
   appendNoteToSidecar,
   newNoteId,
+  type ReviewNote,
+  type ReviewPosition,
   readSidecar,
   sidecarPathFor,
   slugFromPath,
-  type ReviewNote,
-  type ReviewPosition,
 } from '../lib/review-sidecar-format'
 
 type ReviewRequestBody = {

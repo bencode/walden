@@ -1,10 +1,10 @@
 // Per-language kernel registry. Each language lazily constructs a page-level
 // singleton on first request (so all cells in the same page share kernel state).
 
+import { getClojureKernel } from './clojure/kernel'
 import type { Kernel, Lang } from './common/types'
 import { getPythonKernel } from './python/kernel'
 import { getSchemeKernel } from './scheme/kernel'
-import { getClojureKernel } from './clojure/kernel'
 import { getTypeScriptKernel } from './typescript/kernel'
 
 type KernelFactory = () => Kernel

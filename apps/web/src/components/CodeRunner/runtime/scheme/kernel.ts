@@ -15,10 +15,7 @@ import { emptyResult } from '../common/types'
 // biome-ignore lint/suspicious/noExplicitAny: BiwaScheme has no shipped types
 type BiwaSchemeModule = any
 
-function formatSchemeValue(
-  BiwaScheme: BiwaSchemeModule,
-  value: unknown,
-): string | null {
+function formatSchemeValue(BiwaScheme: BiwaSchemeModule, value: unknown): string | null {
   if (value === undefined || value === null) return null
   if (BiwaScheme?.undef !== undefined && value === BiwaScheme.undef) return null
   if (BiwaScheme?.nil !== undefined && value === BiwaScheme.nil) return "'()"

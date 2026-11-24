@@ -2,7 +2,7 @@
 
 import { getKernel, isLang } from '../registry'
 import { createEditor, type EditorHandle } from './editor'
-import { renderResult, renderStatus, clearOutput } from './output'
+import { clearOutput, renderResult, renderStatus } from './output'
 
 type CellState = 'idle' | 'running' | 'error'
 

@@ -5,12 +5,7 @@
 import { transform } from 'sucrase'
 import { fmtArg } from '../common/js-format'
 import { detectRichOutput } from '../common/rich-output'
-import type {
-  CellResult,
-  InitListener,
-  Kernel,
-  PackageLoadListener,
-} from '../common/types'
+import type { CellResult, InitListener, Kernel, PackageLoadListener } from '../common/types'
 import { emptyResult } from '../common/types'
 import { $import } from './library-registry'
 
@@ -106,7 +101,9 @@ class TypeScriptKernel implements Kernel {
       // `return (;...)`. The leading `;` is a no-op statement anyway.
       const trailingExpr = trailing ? trailing.replace(/^[\s;]+/, '') : ''
       const innerTs = trailingExpr
-        ? (body.trim() ? `${body}\n;return (${trailingExpr});` : `return (${trailingExpr});`)
+        ? body.trim()
+          ? `${body}\n;return (${trailingExpr});`
+          : `return (${trailingExpr});`
         : `${body}`
 
       const wrappedTs = `(async () => {\n${innerTs}\n})()`
