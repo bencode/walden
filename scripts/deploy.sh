@@ -1,37 +1,21 @@
 #!/usr/bin/env bash
-# Usage:
-#   DEPLOY_SERVER=i DEPLOY_DIR=/root/repos/lambdacraft ./scripts/deploy.sh
-# Recommended: define an SSH alias in ~/.ssh/config so the host/IP/user/key never
-# appear on command lines, in shell history, or in this repo.
+# Build the static site and sync it to the directory Caddy serves as blog.qijun.io.
+# Usage: ./scripts/deploy.sh
+#   DEPLOY_SERVER: SSH host or alias, default i
+#   DEPLOY_DIR:    remote web root, default /root/apps/qj-blog
 
 set -euo pipefail
 
-: "${DEPLOY_SERVER:?DEPLOY_SERVER is required (e.g. user@host or an SSH alias from ~/.ssh/config)}"
-: "${DEPLOY_DIR:?DEPLOY_DIR is required (absolute remote path, e.g. /root/repos/lambdacraft)}"
+SERVER="${DEPLOY_SERVER:-i}"
+REMOTE_DIR="${DEPLOY_DIR:-/root/apps/qj-blog}"
 
-SERVER="$DEPLOY_SERVER"
-REMOTE_DIR="$DEPLOY_DIR"
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "$REPO_ROOT"
+echo "==> Build apps/web"
+pnpm install --frozen-lockfile
+pnpm --filter web build
 
-echo "==> Sync source to remote:$REMOTE_DIR"
-ssh "$SERVER" "mkdir -p $REMOTE_DIR"
-rsync -az --delete \
-  --exclude='.git' \
-  --exclude='node_modules' \
-  --exclude='**/node_modules' \
-  --exclude='dist' \
-  --exclude='**/dist' \
-  --exclude='.astro' \
-  --exclude='**/.astro' \
-  --exclude='*.log' \
-  --exclude='.env' \
-  --exclude='.env.*' \
-  --exclude='.DS_Store' \
-  ./ "$SERVER:$REMOTE_DIR/"
-
-echo "==> Build & restart container on server"
-ssh "$SERVER" "cd $REMOTE_DIR && docker compose up -d --build"
+echo "==> Sync apps/web/dist to $SERVER:$REMOTE_DIR"
+rsync -az --delete apps/web/dist/ "$SERVER:$REMOTE_DIR/"
 
 echo "==> Done."

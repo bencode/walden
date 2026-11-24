@@ -1,17 +1,13 @@
-# LambdaCraft
+# walden
 
 **(λ () (study math) (practice code))**
 
+Source of [(λ Qijun)](https://blog.qijun.io/), a personal blog built with Astro in `apps/web`.
+
 ## Deploy
 
-Public site:
-
-- https://qijun.io/
-
-Publish the site to server `i`:
-
 ```bash
-DEPLOY_SERVER=i DEPLOY_DIR=/root/repos/lambdacraft ./scripts/deploy.sh
+./scripts/deploy.sh
 ```
 
-The deploy script syncs the local source tree to the remote directory, then runs `docker compose up -d --build` on the server.
+The script builds `apps/web` and syncs `apps/web/dist/` to `/root/apps/qj-blog` on server `i`, which Caddy serves as `blog.qijun.io`. Set `DEPLOY_SERVER` or `DEPLOY_DIR` to deploy elsewhere.
