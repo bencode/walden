@@ -2,6 +2,7 @@
 import '@fontsource-variable/geist'
 import '@fontsource-variable/geist-mono'
 import '../styles/global.css'
+import Logo from '../components/Logo.astro'
 import ReviewLayer from '../components/ReviewLayer.astro'
 
 type Props = {
@@ -66,8 +67,8 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
           </a>
           <div class="mx-auto flex min-h-screen w-full max-w-[680px] flex-col px-6 pt-16 pb-20 sm:pt-24">
             <header class="mb-14 flex items-center justify-between gap-4">
-              <a class="font-semibold tracking-[-0.01em]" href="/" aria-label={`${siteName} 首页`}>
-                {siteName}
+              <a class="text-[16px]" href="/" aria-label={`${siteName} 首页`}>
+                <Logo />
               </a>
               <nav class="flex gap-1 text-[14px]" aria-label="主导航">
                 {navItems.map((item) => {
