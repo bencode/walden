@@ -59,6 +59,15 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
     <link rel="alternate" type="application/rss+xml" title={siteName} href="/rss.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{fullTitle}</title>
+    <script is:inline>
+      // Apply the reader's saved theme before first paint, so a forced theme never flashes.
+      try {
+        const theme = localStorage.getItem('theme')
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme
+      } catch (error) {
+        console.error('读取配色设置失败', error)
+      }
+    </script>
   </head>
   <body class="min-h-screen bg-bg font-sans text-[16px] text-fg leading-[1.7] antialiased">
     {
@@ -73,23 +82,45 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
           <div class="mx-auto flex min-h-screen w-full max-w-[680px] flex-col px-6 pt-16 pb-20 sm:pt-24">
             <header class="mb-14 flex flex-wrap items-center justify-between gap-x-4">
               <Repl />
-              <nav class="flex gap-1 text-[14px]" aria-label="主导航">
-                {navItems.map((item) => {
-                  const current = currentPath.startsWith(item.href)
-                  return (
-                    <a
-                      class:list={[
-                        'rounded-md px-2.5 py-1.5 transition-colors hover:bg-hover hover:text-fg',
-                        current ? 'bg-hover text-fg' : 'text-mute',
-                      ]}
-                      href={item.href}
-                      aria-current={current ? 'page' : undefined}
-                    >
-                      {item.label}
-                    </a>
-                  )
-                })}
-              </nav>
+              <div class="flex items-center gap-3">
+                <nav class="flex gap-1 text-[14px]" aria-label="主导航">
+                  {navItems.map((item) => {
+                    const current = currentPath.startsWith(item.href)
+                    return (
+                      <a
+                        class:list={[
+                          'rounded-md px-2.5 py-1.5 transition-colors hover:bg-hover hover:text-fg',
+                          current ? 'bg-hover text-fg' : 'text-mute',
+                        ]}
+                        href={item.href}
+                        aria-current={current ? 'page' : undefined}
+                      >
+                        {item.label}
+                      </a>
+                    )
+                  })}
+                </nav>
+                <button
+                  type="button"
+                  class="group grid size-8 place-items-center rounded-full text-mute transition-colors hover:bg-hover hover:text-fg"
+                  data-theme-toggle
+                  data-choice="auto"
+                  title="配色：自动"
+                  aria-label="配色：自动，点击切换"
+                >
+                  <svg class="hidden size-4 group-data-[choice=auto]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="12" rx="2" />
+                    <path d="M8 20h8M12 16v4" />
+                  </svg>
+                  <svg class="hidden size-4 group-data-[choice=light]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+                  </svg>
+                  <svg class="hidden size-4 group-data-[choice=dark]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z" />
+                  </svg>
+                </button>
+              </div>
             </header>
             <main id="main-content" class="flex-1">
               <slot />
@@ -106,15 +137,54 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
 
     {isDev && showChrome && <ReviewLayer />}
     <script>
-      const renderMermaidDiagrams = async () => {
-        const diagrams = document.querySelectorAll<HTMLElement>('.mermaid')
-        if (diagrams.length === 0) return
+      type ThemeChoice = 'auto' | 'light' | 'dark'
 
+      const choices: ReadonlyArray<ThemeChoice> = ['auto', 'light', 'dark']
+      const labels: Record<ThemeChoice, string> = { auto: '自动', light: '浅色', dark: '深色' }
+      const themeColors: Record<'light' | 'dark', string> = { light: '#fafafa', dark: '#0a0a0a' }
+      const root = document.documentElement
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)')
+
+      const currentChoice = (): ThemeChoice => {
+        const theme = root.dataset.theme
+        return theme === 'light' || theme === 'dark' ? theme : 'auto'
+      }
+      const isDark = () => {
+        const choice = currentChoice()
+        return choice === 'auto' ? systemDark.matches : choice === 'dark'
+      }
+
+      const saveChoice = (choice: ThemeChoice) => {
+        try {
+          if (choice === 'auto') localStorage.removeItem('theme')
+          else localStorage.setItem('theme', choice)
+        } catch (error) {
+          console.error('保存配色设置失败', error)
+        }
+      }
+
+      // The browser bar follows the system through the media queries; a forced theme pins both.
+      const syncThemeColor = (choice: ThemeChoice) => {
+        document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]').forEach((meta) => {
+          const own = meta.media.includes('dark') ? themeColors.dark : themeColors.light
+          meta.content = choice === 'auto' ? own : themeColors[choice]
+        })
+      }
+
+      const diagrams = [...document.querySelectorAll<HTMLElement>('.mermaid')]
+      const sources = new Map(diagrams.map((diagram) => [diagram, diagram.textContent ?? '']))
+
+      // Mermaid bakes colours into the SVG, so a theme change redraws from the saved sources.
+      const renderMermaidDiagrams = async () => {
+        if (diagrams.length === 0) return
         const { default: mermaid } = await import('mermaid')
-        const dark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        diagrams.forEach((diagram) => {
+          diagram.removeAttribute('data-processed')
+          diagram.textContent = sources.get(diagram) ?? ''
+        })
         mermaid.initialize({
           startOnLoad: false,
-          theme: dark ? 'dark' : 'neutral',
+          theme: isDark() ? 'dark' : 'neutral',
           securityLevel: 'strict',
           fontFamily: getComputedStyle(document.body).fontFamily,
           flowchart: { wrappingWidth: 260 },
@@ -124,12 +194,40 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
             edgeLabelBackground: getComputedStyle(document.body).backgroundColor,
           },
         })
-        await mermaid.run({ nodes: [...diagrams] })
+        await mermaid.run({ nodes: diagrams })
       }
 
-      void renderMermaidDiagrams().catch((error: unknown) => {
-        console.error('Mermaid 图表渲染失败', error)
+      const redraw = () => {
+        void renderMermaidDiagrams().catch((error: unknown) => {
+          console.error('Mermaid 图表渲染失败', error)
+        })
+      }
+
+      const toggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]')
+      const showChoice = (choice: ThemeChoice) => {
+        if (!toggle) return
+        toggle.dataset.choice = choice
+        toggle.title = `配色：${labels[choice]}`
+        toggle.setAttribute('aria-label', `配色：${labels[choice]}，点击切换`)
+      }
+
+      toggle?.addEventListener('click', () => {
+        const next = choices[(choices.indexOf(currentChoice()) + 1) % choices.length] ?? 'auto'
+        if (next === 'auto') delete root.dataset.theme
+        else root.dataset.theme = next
+        saveChoice(next)
+        showChoice(next)
+        syncThemeColor(next)
+        redraw()
       })
+
+      systemDark.addEventListener('change', () => {
+        if (currentChoice() === 'auto') redraw()
+      })
+
+      showChoice(currentChoice())
+      syncThemeColor(currentChoice())
+      redraw()
     </script>
   </body>
 </html>

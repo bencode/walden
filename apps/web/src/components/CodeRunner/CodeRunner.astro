@@ -45,12 +45,12 @@ const {
 <style is:global>
   /* Colours follow the site tokens in global.css, so cells switch with dark mode. */
   .coderunner-cell {
-    --syn-keyword: #cf222e;
-    --syn-string: #0a3069;
-    --syn-number: #0550ae;
-    --syn-comment: #6e7781;
-    --syn-function: #8250df;
-    --syn-definition: #953800;
+    --syn-keyword: light-dark(#cf222e, #ff7b72);
+    --syn-string: light-dark(#0a3069, #a5d6ff);
+    --syn-number: light-dark(#0550ae, #79c0ff);
+    --syn-comment: light-dark(#6e7781, #8b949e);
+    --syn-function: light-dark(#8250df, #d2a8ff);
+    --syn-definition: light-dark(#953800, #ffa657);
     border: 1px solid var(--hair);
     border-radius: 10px;
     margin: 1.5rem 0;
@@ -60,16 +60,6 @@ const {
     font-family: var(--font-sans);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .coderunner-cell {
-      --syn-keyword: #ff7b72;
-      --syn-string: #a5d6ff;
-      --syn-number: #79c0ff;
-      --syn-comment: #8b949e;
-      --syn-function: #d2a8ff;
-      --syn-definition: #ffa657;
-    }
-  }
 
   /* Hint = author-supplied caption, sits above the editor as a clear
      section title. Visual weight comparable to a small heading. */

@@ -1,28 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #fafafa;
-  --fg: #0a0a0a;
-  --mute: #737373;
-  --hair: #e5e5e5;
-  --hover: #f0f0f0;
-  --ok: #1a7f37;
-  --warn: #9a6700;
-  --err: #cf222e;
   color-scheme: light dark;
+  --bg: light-dark(#fafafa, #0a0a0a);
+  --fg: light-dark(#0a0a0a, #ededed);
+  --mute: light-dark(#737373, #8f8f8f);
+  --hair: light-dark(#e5e5e5, #262626);
+  --hover: light-dark(#f0f0f0, #171717);
+  --ok: light-dark(#1a7f37, #3fb950);
+  --warn: light-dark(#9a6700, #d29922);
+  --err: light-dark(#cf222e, #f85149);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0a0a0a;
-    --fg: #ededed;
-    --mute: #8f8f8f;
-    --hair: #262626;
-    --hover: #171717;
-    --ok: #3fb950;
-    --warn: #d29922;
-    --err: #f85149;
-  }
+/* A reader's choice from the header toggle; without one the page follows the system. */
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 @theme inline {
@@ -199,14 +194,6 @@
 /* Shiki 双主题：只输出 --shiki-light / --shiki-dark 变量，按配色方案选用 */
 .astro-code,
 .astro-code span {
-  color: var(--shiki-light);
-  background-color: var(--shiki-light-bg);
-}
-
-@media (prefers-color-scheme: dark) {
-  .astro-code,
-  .astro-code span {
-    color: var(--shiki-dark);
-    background-color: var(--shiki-dark-bg);
-  }
+  color: light-dark(var(--shiki-light), var(--shiki-dark));
+  background-color: light-dark(var(--shiki-light-bg), var(--shiki-dark-bg));
 }
