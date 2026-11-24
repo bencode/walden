@@ -165,9 +165,29 @@
 .prose-body p:has(> img) {
   margin-bottom: 0.75rem;
 }
+/* Two figures meant to be compared: side by side on wide screens, stacked where they would shrink unreadably. */
+.prose-body .figure-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  gap: 1rem;
+  width: var(--wide);
+  margin: 2rem calc(50% - var(--wide) / 2) 0.75rem;
+}
+@media (min-width: 1024px) {
+  .prose-body .figure-pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.prose-body .figure-pair img {
+  max-width: 100%;
+  margin-left: 0;
+  transform: none;
+}
 /* Markdown captions: an emphasized paragraph right after an image, a diagram or a table. CJK has no italic. */
 .prose-body table + p > em:only-child,
 .prose-body p:has(> img) + p > em:only-child,
+.prose-body .figure-pair + p > em:only-child,
 .prose-body .mermaid + p > em:only-child {
   display: block;
   font-style: normal;
