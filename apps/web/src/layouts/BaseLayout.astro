@@ -119,7 +119,10 @@ const navItems: ReadonlyArray<{ href: string; label: string }> = [
           fontFamily: getComputedStyle(document.body).fontFamily,
           flowchart: { wrappingWidth: 260 },
           // Flat nodes: the neo look draws a drop shadow unless the theme turns it off.
-          themeVariables: { dropShadow: 'none' },
+          themeVariables: {
+            dropShadow: 'none',
+            edgeLabelBackground: getComputedStyle(document.body).backgroundColor,
+          },
         })
         await mermaid.run({ nodes: [...diagrams] })
       }
