@@ -39,6 +39,8 @@ const remarkMermaid = () => (tree) => {
 
 const shikiConfig = {
   themes: { light: 'github-light-default', dark: 'github-dark-default' },
+  // Emit both themes as CSS variables only; global.css picks one per colour scheme.
+  defaultColor: false,
   wrap: false,
 }
 

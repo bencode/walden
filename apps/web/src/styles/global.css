@@ -31,7 +31,9 @@
   --color-mute: var(--mute);
   --color-hair: var(--hair);
   --color-hover: var(--hover);
-  --font-sans: "Geist Variable", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --font-sans:
+    "Geist Variable", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
+    "Noto Sans CJK SC", system-ui, sans-serif;
   --font-mono: "Geist Mono Variable", ui-monospace, Menlo, monospace;
 }
 
@@ -145,11 +147,17 @@
   background: transparent;
 }
 
-/* Shiki 双主题：暗色模式切到 dark 变量 */
+/* Shiki 双主题：只输出 --shiki-light / --shiki-dark 变量，按配色方案选用 */
+.astro-code,
+.astro-code span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
+
 @media (prefers-color-scheme: dark) {
   .astro-code,
   .astro-code span {
-    color: var(--shiki-dark) !important;
-    background-color: var(--shiki-dark-bg) !important;
+    color: var(--shiki-dark);
+    background-color: var(--shiki-dark-bg);
   }
 }
