@@ -170,8 +170,10 @@
 .prose-body p:has(> img) {
   margin-bottom: 0.75rem;
 }
-/* Markdown captions: an emphasized paragraph right after an image. CJK has no italic. */
-.prose-body p:has(> img) + p > em:only-child {
+/* Markdown captions: an emphasized paragraph right after an image, a diagram or a table. CJK has no italic. */
+.prose-body table + p > em:only-child,
+.prose-body p:has(> img) + p > em:only-child,
+.prose-body .mermaid + p > em:only-child {
   display: block;
   font-style: normal;
   font-size: 0.875rem;
@@ -181,6 +183,13 @@
 }
 .prose-body p:has(> img) + p:has(> em:only-child) {
   margin-top: 0;
+}
+.prose-body .mermaid:has(+ p > em:only-child) {
+  margin-bottom: 0.75rem;
+}
+/* Keep short row labels from breaking one CJK character per line on narrow screens. */
+.prose-body :is(th, td):first-child {
+  min-width: 4em;
 }
 .prose-body .katex-display {
   overflow-x: auto;
