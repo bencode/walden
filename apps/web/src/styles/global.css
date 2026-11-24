@@ -6,6 +6,9 @@
   --mute: #737373;
   --hair: #e5e5e5;
   --hover: #f0f0f0;
+  --ok: #1a7f37;
+  --warn: #9a6700;
+  --err: #cf222e;
   color-scheme: light dark;
 }
 
@@ -16,6 +19,9 @@
     --mute: #8f8f8f;
     --hair: #262626;
     --hover: #171717;
+    --ok: #3fb950;
+    --warn: #d29922;
+    --err: #f85149;
   }
 }
 
@@ -25,7 +31,7 @@
   --color-mute: var(--mute);
   --color-hair: var(--hair);
   --color-hover: var(--hover);
-  --font-sans: "Geist Variable", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --font-sans: "Geist Variable", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", system-ui, sans-serif;
   --font-mono: "Geist Mono Variable", ui-monospace, Menlo, monospace;
 }
 

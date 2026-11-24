@@ -1,30 +1,26 @@
 // CodeMirror 6 editor, per-language syntax selected dynamically.
 
-import { EditorState, type Extension } from '@codemirror/state'
+import { defaultKeymap, history, historyKeymap, indentWithTab } from '@codemirror/commands'
+import { javascript } from '@codemirror/lang-javascript'
+import { python } from '@codemirror/lang-python'
 import {
-  EditorView,
-  keymap,
-  lineNumbers,
-  highlightActiveLine,
-  drawSelection,
-} from '@codemirror/view'
-import {
-  defaultKeymap,
-  history,
-  historyKeymap,
-  indentWithTab,
-} from '@codemirror/commands'
-import {
-  syntaxHighlighting,
-  defaultHighlightStyle,
   bracketMatching,
+  HighlightStyle,
   indentOnInput,
   StreamLanguage,
+  syntaxHighlighting,
 } from '@codemirror/language'
-import { python } from '@codemirror/lang-python'
-import { javascript } from '@codemirror/lang-javascript'
-import { scheme } from '@codemirror/legacy-modes/mode/scheme'
 import { clojure } from '@codemirror/legacy-modes/mode/clojure'
+import { scheme } from '@codemirror/legacy-modes/mode/scheme'
+import { EditorState, type Extension } from '@codemirror/state'
+import {
+  drawSelection,
+  EditorView,
+  highlightActiveLine,
+  keymap,
+  lineNumbers,
+} from '@codemirror/view'
+import { tags } from '@lezer/highlight'
 import type { Lang } from './types'
 
 export type EditorHandle = {
@@ -33,6 +29,34 @@ export type EditorHandle = {
   setValue(code: string): void
   focus(): void
 }
+
+// Colours come from CSS variables set on .coderunner-cell, so the editor follows dark mode.
+const highlightStyle = HighlightStyle.define([
+  {
+    tag: [
+      tags.keyword,
+      tags.operatorKeyword,
+      tags.controlKeyword,
+      tags.standard(tags.variableName),
+    ],
+    color: 'var(--syn-keyword)',
+  },
+  { tag: [tags.string, tags.special(tags.string), tags.regexp], color: 'var(--syn-string)' },
+  { tag: [tags.number, tags.bool, tags.atom, tags.null], color: 'var(--syn-number)' },
+  {
+    tag: [tags.comment, tags.lineComment, tags.blockComment],
+    color: 'var(--syn-comment)',
+    fontStyle: 'italic',
+  },
+  {
+    tag: [tags.function(tags.variableName), tags.function(tags.propertyName)],
+    color: 'var(--syn-function)',
+  },
+  {
+    tag: [tags.definition(tags.variableName), tags.typeName, tags.className],
+    color: 'var(--syn-definition)',
+  },
+])
 
 const langExtensions: Record<Lang, () => Extension> = {
   python: () => python(),
@@ -58,7 +82,7 @@ export function createEditor(
         history(),
         bracketMatching(),
         indentOnInput(),
-        syntaxHighlighting(defaultHighlightStyle),
+        syntaxHighlighting(highlightStyle),
         langExtensions[lang](),
         keymap.of([
           ...defaultKeymap,
@@ -76,11 +100,17 @@ export function createEditor(
         EditorView.theme({
           '&': {
             fontSize: '14px',
-            fontFamily:
-              'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace',
+            fontFamily: 'var(--font-mono)',
+            color: 'var(--fg)',
+          },
+          '.cm-cursor': { borderLeftColor: 'var(--fg)' },
+          '.cm-activeLine': { backgroundColor: 'var(--hover)' },
+          '.cm-activeLineGutter': { backgroundColor: 'var(--hover)' },
+          '&.cm-focused .cm-selectionBackground, .cm-selectionBackground': {
+            backgroundColor: 'var(--hair)',
           },
           '.cm-content': { padding: '8px 0' },
-          '.cm-gutters': { backgroundColor: '#fafafa', border: 'none' },
+          '.cm-gutters': { backgroundColor: 'transparent', color: 'var(--mute)', border: 'none' },
           '.cm-line': { padding: '0 8px' },
           '&.cm-focused': { outline: 'none' },
         }),
