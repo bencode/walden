@@ -1,0 +1,125 @@
+---
+import { getCollection } from 'astro:content'
+import type { ReplData } from './repl/repl'
+
+const posts = await getCollection('posts', ({ data }) => !data.draft)
+const data: ReplData = {
+  posts: posts
+    .toSorted((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+    .map((post) => ({
+      title: post.data.title,
+      date: post.data.date.toISOString().slice(0, 10),
+      kind: post.data.kind,
+      href: `/posts/${post.id}/`,
+    })),
+  places: { blog: '/', lab: 'https://lab.qijun.io/', github: 'https://github.com/bencode' },
+}
+---
+
+<label class="repl" data-repl data-repl-data={JSON.stringify(data)}>
+  <span class="repl-prompt" aria-hidden="true">λ&gt;</span>
+  <input
+    value="(qijun's blog)"
+    spellcheck="false"
+    autocomplete="off"
+    autocapitalize="off"
+    aria-label="站点 REPL：输入 Scheme 表达式，回车运行。试试 (what's this)"
+  />
+  <span class="repl-inline" data-inline aria-live="polite"></span>
+</label>
+<div class="repl-term" data-repl-term role="log" aria-live="polite"></div>
+
+<script>
+  import { initRepl, type ReplData } from './repl/repl'
+
+  const root = document.querySelector<HTMLElement>('[data-repl]')
+  if (root?.dataset.replData) initRepl(root, JSON.parse(root.dataset.replData) as ReplData)
+</script>
+
+<style is:global>
+  .repl {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55em;
+    min-width: 0;
+    flex: 1;
+    overflow: hidden;
+    cursor: text;
+    font: 500 15px/1.4 var(--font-mono);
+  }
+  .repl-prompt {
+    flex: none;
+    font-weight: 600;
+    user-select: none;
+  }
+  .repl input {
+    min-width: 2ch;
+    max-width: 100%;
+    padding: 6px 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--fg);
+    font: inherit;
+    caret-color: var(--fg);
+  }
+  .repl-inline {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--mute);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .repl-term {
+    order: 3;
+    flex-basis: 100%;
+    margin-top: 14px;
+    padding-left: 14px;
+    border-left: 2px solid var(--hair);
+    font: 400 13.5px/1.7 var(--font-mono);
+  }
+  .repl-term:empty {
+    display: none;
+  }
+  .repl-entry {
+    margin-bottom: 12px;
+  }
+  .repl-line {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .repl-entry a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .repl-entry pre {
+    max-height: 320px;
+    overflow: auto;
+    color: var(--mute);
+    font: inherit;
+    font-size: 12.5px;
+  }
+  .repl-dim {
+    color: var(--mute);
+  }
+  .repl-val {
+    color: var(--fg);
+  }
+  .repl-str {
+    color: var(--ok);
+  }
+  .repl-err {
+    color: var(--err);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .repl-entry {
+      animation: repl-in 0.18s ease-out;
+    }
+    @keyframes repl-in {
+      from {
+        opacity: 0;
+        transform: translateY(-3px);
+      }
+    }
+  }
+</style>

@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <title>(λ Qijun)</title>
   <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
-  <g fill="none" stroke="#fafafa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.55 6.45) scale(1.4)">
-    <path d="M15.5 6.5C19.5 5.5 21.5 7.5 23 11L31 31"/>
-    <path d="M24.6 15.5L16 31"/>
+  <g fill="none" stroke="#fafafa" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-6.4 8.6) scale(1.25)" stroke-width="3.36">
+      <path d="M15.5 6.5C19.5 5.5 21.5 7.5 23 11L31 31"/>
+      <path d="M24.6 15.5L16 31"/>
+    </g>
+    <path d="M40 30.5L50 37L40 43.5"/>
   </g>
 </svg>
