@@ -1,10 +1,11 @@
-import { defineConfig } from 'astro/config'
-import mdx from '@astrojs/mdx'
 import { unified } from '@astrojs/markdown-remark'
+import mdx from '@astrojs/mdx'
+import sitemap from '@astrojs/sitemap'
 import tailwindcss from '@tailwindcss/vite'
-import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex'
+import { defineConfig } from 'astro/config'
 import rehypeExternalLinks from 'rehype-external-links'
+import rehypeKatex from 'rehype-katex'
+import remarkMath from 'remark-math'
 import { reviewSidecar } from './src/integrations/review-sidecar'
 
 const remarkStripFirstH1 = () => (tree) => {
@@ -55,7 +56,7 @@ const markdownProcessor = unified({
 export default defineConfig({
   site: 'https://blog.qijun.io',
   compressHTML: true,
-  integrations: [mdx(), reviewSidecar()],
+  integrations: [mdx(), sitemap(), reviewSidecar()],
   vite: {
     plugins: [tailwindcss()],
   },

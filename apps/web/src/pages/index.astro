@@ -2,10 +2,11 @@
 import { getCollection } from 'astro:content'
 import PostList from '../components/PostList.astro'
 import BaseLayout from '../layouts/BaseLayout.astro'
+import { siteName } from '../site'
 
 const posts = await getCollection('posts', ({ data }) => !data.draft)
 ---
 
-<BaseLayout title="(λ Qijun)">
+<BaseLayout title={siteName}>
   <PostList posts={posts} />
 </BaseLayout>
