@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 456" width="680" height="456" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>表格线：在多条竖向窄带里找横线候选，每条带挑出等距的一组；用两条带的表头底线、表底线连成直线，首尾不在线上的带被排除；两条带之间任意位置的横线由插值得到</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="455" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="18" y="14" width="450" height="404" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<rect x="58" y="22" width="12" height="362.2535885167464" rx="0" fill="#dbe6f7"/>
+<rect x="122" y="22" width="12" height="367.06124401913877" rx="0" fill="#dbe6f7"/>
+<rect x="184" y="22" width="12" height="371.7186602870813" rx="0" fill="#dbe6f7"/>
+<rect x="244" y="22" width="12" height="376.22583732057416" rx="0" fill="#fde2dd"/>
+<rect x="306" y="22" width="12" height="380.8832535885167" rx="0" fill="#dbe6f7"/>
+<rect x="370" y="22" width="12" height="385.6909090909091" rx="0" fill="#dbe6f7"/>
+<rect x="424" y="22" width="12" height="389.7473684210526" rx="0" fill="#dbe6f7"/>
+<text x="100" y="34" font-size="15" fill="#5b6a80" text-anchor="middle" font-weight="600">产品报废单</text>
+<line x1="44" y1="40.12" x2="156" y2="41.464" stroke="#9fb0c4" stroke-width="1.2"/>
+<line x1="34" y1="372.0" x2="452" y2="403.4" stroke="#9fb0c4" stroke-width="1.2"/>
+<text x="38" y="364.0" font-size="11" fill="#5b6a80" text-anchor="start">班组长签字</text>
+<line x1="34" y1="58.0" x2="452" y2="74.0" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="104.0" x2="452" y2="122.2" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="142.0" x2="452" y2="162.4" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="180.0" x2="452" y2="202.6" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="218.0" x2="452" y2="242.8" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="256.0" x2="452" y2="283.0" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="294.0" x2="452" y2="323.2" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="34" y1="332.0" x2="236" y2="347.1741626794258" stroke="#9fb0c4" stroke-width="1.3"/>
+<line x1="264" y1="349.2775119617225" x2="452" y2="363.4" stroke="#9fb0c4" stroke-width="1.3"/>
+<ellipse cx="250" cy="349.22583732057416" rx="18" ry="8" fill="#cfc8b6" opacity="0.75"/>
+<line x1="34" y1="58.0" x2="38" y2="332.30047846889954" stroke="#9fb0c4" stroke-width="1.1"/>
+<line x1="150" y1="62.44019138755981" x2="154" y2="341.0143540669856" stroke="#9fb0c4" stroke-width="1.1"/>
+<line x1="262" y1="66.72727272727272" x2="266" y2="349.4277511961722" stroke="#9fb0c4" stroke-width="1.1"/>
+<line x1="326" y1="69.17703349282297" x2="330" y2="354.2354066985646" stroke="#9fb0c4" stroke-width="1.1"/>
+<line x1="452" y1="74.0" x2="456" y2="363.7004784688995" stroke="#9fb0c4" stroke-width="1.1"/>
+<text x="44" y="87.0" font-size="12" fill="#5b6a80" text-anchor="start">产品名称</text>
+<text x="160" y="91.4401913875598" font-size="12" fill="#5b6a80" text-anchor="start">报废原因</text>
+<text x="272" y="95.72727272727272" font-size="12" fill="#5b6a80" text-anchor="start">报废数量</text>
+<text x="336" y="98.17703349282297" font-size="12" fill="#5b6a80" text-anchor="start">操作工</text>
+<text x="44" y="131.43540669856458" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 44 131.43540669856458)">左支架</text>
+<text x="160" y="136.48612440191388" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 160 136.48612440191388)">尺寸超差</text>
+<text x="286" y="141.97224880382777" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 286 141.97224880382777)">3</text>
+<text x="336" y="144.1492822966507" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 336 144.1492822966507)">罗安平</text>
+<text x="160" y="175.1492822966507" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 160 175.1492822966507)">划伤</text>
+<text x="286" y="181.29856459330145" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 286 181.29856459330145)">1</text>
+<text x="336" y="183.73875598086124" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 336 183.73875598086124)">沈可</text>
+<text x="44" y="245.5933014354067" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 44 245.5933014354067)">端盖</text>
+<text x="160" y="252.4755980861244" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 160 252.4755980861244)">气泡</text>
+<text x="286" y="259.95119617224884" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 286 259.95119617224884)">2</text>
+<text x="336" y="262.9177033492823" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 336 262.9177033492823)">唐一鸣</text>
+<line x1="58" y1="40.36" x2="70" y2="40.36" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="59.14832535885167" x2="70" y2="59.14832535885167" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="105.30622009569377" x2="70" y2="105.30622009569377" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="143.4641148325359" x2="70" y2="143.4641148325359" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="181.62200956937798" x2="70" y2="181.62200956937798" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="219.7799043062201" x2="70" y2="219.7799043062201" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="257.9377990430622" x2="70" y2="257.9377990430622" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="296.0956937799043" x2="70" y2="296.0956937799043" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="334.2535885167464" x2="70" y2="334.2535885167464" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="58" y1="374.2535885167464" x2="70" y2="374.2535885167464" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="64" cy="105.30622009569377" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="143.4641148325359" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="181.62200956937798" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="219.7799043062201" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="257.9377990430622" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="296.0956937799043" r="3.6" fill="#2f6fdf"/>
+<circle cx="64" cy="334.2535885167464" r="3.6" fill="#2f6fdf"/>
+<line x1="122" y1="41.128" x2="134" y2="41.128" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="61.59808612440192" x2="134" y2="61.59808612440192" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="108.09282296650717" x2="134" y2="108.09282296650717" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="146.58755980861244" x2="134" y2="146.58755980861244" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="185.0822966507177" x2="134" y2="185.0822966507177" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="223.57703349282298" x2="134" y2="223.57703349282298" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="262.0717703349282" x2="134" y2="262.0717703349282" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="300.5665071770335" x2="134" y2="300.5665071770335" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="339.06124401913877" x2="134" y2="339.06124401913877" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="122" y1="379.06124401913877" x2="134" y2="379.06124401913877" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="128" cy="108.09282296650717" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="146.58755980861244" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="185.0822966507177" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="223.57703349282298" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="262.0717703349282" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="300.5665071770335" r="3.6" fill="#2f6fdf"/>
+<circle cx="128" cy="339.06124401913877" r="3.6" fill="#2f6fdf"/>
+<line x1="184" y1="63.97129186602871" x2="196" y2="63.97129186602871" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="110.79234449760766" x2="196" y2="110.79234449760766" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="149.6133971291866" x2="196" y2="149.6133971291866" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="188.43444976076555" x2="196" y2="188.43444976076555" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="227.2555023923445" x2="196" y2="227.2555023923445" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="266.07655502392345" x2="196" y2="266.07655502392345" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="304.8976076555024" x2="196" y2="304.8976076555024" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="343.7186602870813" x2="196" y2="343.7186602870813" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="184" y1="383.7186602870813" x2="196" y2="383.7186602870813" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="190" cy="110.79234449760766" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="149.6133971291866" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="188.43444976076555" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="227.2555023923445" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="266.07655502392345" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="304.8976076555024" r="3.6" fill="#2f6fdf"/>
+<circle cx="190" cy="343.7186602870813" r="3.6" fill="#2f6fdf"/>
+<line x1="244" y1="66.26794258373207" x2="256" y2="66.26794258373207" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="113.40478468899522" x2="256" y2="113.40478468899522" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="152.54162679425838" x2="256" y2="152.54162679425838" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="191.67846889952153" x2="256" y2="191.67846889952153" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="230.8153110047847" x2="256" y2="230.8153110047847" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="269.95215311004785" x2="256" y2="269.95215311004785" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="309.088995215311" x2="256" y2="309.088995215311" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="244" y1="388.22583732057416" x2="256" y2="388.22583732057416" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="250" cy="66.26794258373207" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="113.40478468899522" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="152.54162679425838" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="191.67846889952153" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="230.8153110047847" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="269.95215311004785" r="3.6" fill="#d4483b"/>
+<circle cx="250" cy="309.088995215311" r="3.6" fill="#d4483b"/>
+<line x1="306" y1="68.64114832535886" x2="318" y2="68.64114832535886" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="116.1043062200957" x2="318" y2="116.1043062200957" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="155.56746411483255" x2="318" y2="155.56746411483255" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="195.03062200956938" x2="318" y2="195.03062200956938" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="234.49377990430622" x2="318" y2="234.49377990430622" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="273.9569377990431" x2="318" y2="273.9569377990431" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="313.4200956937799" x2="318" y2="313.4200956937799" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="352.8832535885167" x2="318" y2="352.8832535885167" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="306" y1="392.8832535885167" x2="318" y2="392.8832535885167" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="312" cy="116.1043062200957" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="155.56746411483255" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="195.03062200956938" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="234.49377990430622" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="273.9569377990431" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="313.4200956937799" r="3.6" fill="#2f6fdf"/>
+<circle cx="312" cy="352.8832535885167" r="3.6" fill="#2f6fdf"/>
+<line x1="370" y1="71.0909090909091" x2="382" y2="71.0909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="118.89090909090909" x2="382" y2="118.89090909090909" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="158.6909090909091" x2="382" y2="158.6909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="198.4909090909091" x2="382" y2="198.4909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="238.2909090909091" x2="382" y2="238.2909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="278.09090909090907" x2="382" y2="278.09090909090907" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="317.8909090909091" x2="382" y2="317.8909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="357.6909090909091" x2="382" y2="357.6909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="370" y1="397.6909090909091" x2="382" y2="397.6909090909091" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="376" cy="118.89090909090909" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="158.6909090909091" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="198.4909090909091" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="238.2909090909091" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="278.09090909090907" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="317.8909090909091" r="3.6" fill="#2f6fdf"/>
+<circle cx="376" cy="357.6909090909091" r="3.6" fill="#2f6fdf"/>
+<line x1="424" y1="73.15789473684211" x2="436" y2="73.15789473684211" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="121.2421052631579" x2="436" y2="121.2421052631579" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="161.32631578947368" x2="436" y2="161.32631578947368" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="201.41052631578947" x2="436" y2="201.41052631578947" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="241.49473684210528" x2="436" y2="241.49473684210528" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="281.57894736842104" x2="436" y2="281.57894736842104" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="321.66315789473686" x2="436" y2="321.66315789473686" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="361.7473684210526" x2="436" y2="361.7473684210526" stroke="#8c8a83" stroke-width="2.2"/>
+<line x1="424" y1="401.7473684210526" x2="436" y2="401.7473684210526" stroke="#8c8a83" stroke-width="2.2"/>
+<circle cx="430" cy="121.2421052631579" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="161.32631578947368" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="201.41052631578947" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="241.49473684210528" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="281.57894736842104" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="321.66315789473686" r="3.6" fill="#2f6fdf"/>
+<circle cx="430" cy="361.7473684210526" r="3.6" fill="#2f6fdf"/>
+<line x1="24" y1="103.56459330143541" x2="462" y2="122.6354066985646" stroke="#2f7a3b" stroke-width="1.6" stroke-dasharray="6 4"/>
+<line x1="24" y1="331.2488038277512" x2="462" y2="364.1511961722488" stroke="#2f7a3b" stroke-width="1.6" stroke-dasharray="6 4"/>
+<circle cx="64" cy="105.30622009569377" r="6" fill="none" stroke="#2f7a3b" stroke-width="1.6"/>
+<circle cx="64" cy="334.2535885167464" r="6" fill="none" stroke="#2f7a3b" stroke-width="1.6"/>
+<circle cx="430" cy="121.2421052631579" r="6" fill="none" stroke="#2f7a3b" stroke-width="1.6"/>
+<circle cx="430" cy="361.7473684210526" r="6" fill="none" stroke="#2f7a3b" stroke-width="1.6"/>
+<circle cx="250" cy="66.26794258373207" r="6" fill="none" stroke="#d4483b" stroke-width="1.6"/>
+<circle cx="250" cy="309.088995215311" r="6" fill="none" stroke="#d4483b" stroke-width="1.6"/>
+<line x1="400" y1="66.00956937799043" x2="400" y2="365.4937799043062" stroke="#2f6fdf" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="400" cy="119.93588516746412" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="159.8622009569378" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="199.7885167464115" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="239.7148325358852" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="279.64114832535887" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="319.56746411483255" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<circle cx="400" cy="359.4937799043062" r="3" fill="#ffffff" stroke="#2f6fdf" stroke-width="1.4"/>
+<text x="476" y="40" font-size="13" fill="#52514e" text-anchor="start">① 窄带里一行的暗像素</text>
+<text x="476" y="59" font-size="13" fill="#52514e" text-anchor="start">过半，记为候选（灰线）</text>
+<text x="476" y="100" font-size="13" fill="#52514e" text-anchor="start">② 每条带挑出等距的一组</text>
+<text x="476" y="119" font-size="13" fill="#52514e" text-anchor="start">（蓝点）；标题、签字栏</text>
+<text x="476" y="138" font-size="13" fill="#52514e" text-anchor="start">的线间距不合，不选</text>
+<text x="476" y="176" font-size="13" fill="#2f7a3b" text-anchor="start">③ 两条带的表头底线、</text>
+<text x="476" y="195" font-size="13" fill="#2f7a3b" text-anchor="start">表底线各连一条直线；</text>
+<text x="476" y="214" font-size="13" fill="#2f7a3b" text-anchor="start">首尾都落在线上的带留下</text>
+<text x="476" y="252" font-size="13" fill="#d4483b" text-anchor="start">✕ 这条带的表底线被污迹</text>
+<text x="476" y="271" font-size="13" fill="#d4483b" text-anchor="start">遮断，等距的一组从表头</text>
+<text x="476" y="290" font-size="13" fill="#d4483b" text-anchor="start">顶线开始，错了一行；</text>
+<text x="476" y="309" font-size="13" fill="#d4483b" text-anchor="start">首尾不在线上，排除</text>
+<text x="476" y="358" font-size="13" fill="#2f6fdf" text-anchor="start">④ 两条带之间的任意位置，</text>
+<text x="476" y="377" font-size="13" fill="#2f6fdf" text-anchor="start">逐条插值（空心点）</text>
+<text x="26" y="440" font-size="12" fill="#8c8a83" text-anchor="start">图里只画了 6 行、7 条带；实际在整个宽度上每隔一小段放一条窄带</text>
+</svg>

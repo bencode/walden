@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 372" width="680" height="372" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>检具测量表局部：左边一列测点，上方一行十个测量时段，只有四个时段填了数，其余格空着</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="371" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="16" y="16" width="650" height="308" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="61.0" y="54" font-size="12" fill="#5b6a80" text-anchor="middle">测点</text>
+<text x="378" y="40" font-size="12" fill="#5b6a80" text-anchor="middle">时段</text>
+<text x="126.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">8:00</text>
+<text x="182.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">9:00</text>
+<text x="238.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">10:00</text>
+<text x="294.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">11:00</text>
+<text x="350.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">12:00</text>
+<text x="406.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">13:00</text>
+<text x="462.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">14:00</text>
+<text x="518.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">15:00</text>
+<text x="574.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">16:00</text>
+<text x="630.0" y="67" font-size="12" fill="#5b6a80" text-anchor="middle">17:00</text>
+<line x1="24" y1="24" x2="658" y2="24" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="98" y1="48" x2="658" y2="48" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="76" x2="658" y2="76" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="106" x2="658" y2="106" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="136" x2="658" y2="136" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="166" x2="658" y2="166" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="196" x2="658" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="226" x2="658" y2="226" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="256" x2="658" y2="256" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="286" x2="658" y2="286" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="316" x2="658" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="98" y1="24" x2="98" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="154" y1="48" x2="154" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="210" y1="48" x2="210" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="266" y1="48" x2="266" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="322" y1="48" x2="322" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="378" y1="48" x2="378" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="434" y1="48" x2="434" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="490" y1="48" x2="490" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="546" y1="48" x2="546" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="602" y1="48" x2="602" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="658" y1="48" x2="658" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="24" x2="24" y2="316" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="61.0" y="96" font-size="12" fill="#5b6a80" text-anchor="middle">A-01</text>
+<text x="126.0" y="98" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 98)">0.3</text>
+<text x="238.0" y="98" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 98)">-0.2</text>
+<text x="406.0" y="98" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 98)">0.4</text>
+<text x="518.0" y="98" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 98)">0.1</text>
+<text x="61.0" y="126" font-size="12" fill="#5b6a80" text-anchor="middle">A-02</text>
+<text x="126.0" y="128" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 128)">-0.1</text>
+<text x="238.0" y="128" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 128)">0.2</text>
+<text x="406.0" y="128" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 128)">0.3</text>
+<text x="518.0" y="128" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 128)">0.2</text>
+<text x="61.0" y="156" font-size="12" fill="#5b6a80" text-anchor="middle">A-03</text>
+<text x="126.0" y="158" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 158)">0.5</text>
+<text x="238.0" y="158" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 158)">0.4</text>
+<text x="406.0" y="158" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 158)">0.2</text>
+<text x="518.0" y="158" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 158)">0.6</text>
+<text x="61.0" y="186" font-size="12" fill="#5b6a80" text-anchor="middle">A-04</text>
+<text x="126.0" y="188" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 188)">0.2</text>
+<text x="238.0" y="188" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 188)">0</text>
+<text x="406.0" y="188" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 188)">-0.1</text>
+<text x="518.0" y="188" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 188)">0.1</text>
+<text x="61.0" y="216" font-size="12" fill="#5b6a80" text-anchor="middle">B-01</text>
+<text x="126.0" y="218" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 218)">-0.3</text>
+<text x="238.0" y="218" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 218)">-0.2</text>
+<text x="406.0" y="218" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 218)">-0.4</text>
+<text x="518.0" y="218" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 218)">-0.3</text>
+<text x="61.0" y="246" font-size="12" fill="#5b6a80" text-anchor="middle">B-02</text>
+<text x="126.0" y="248" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 248)">0.1</text>
+<text x="238.0" y="248" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 248)">0.2</text>
+<text x="406.0" y="248" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 248)">0.2</text>
+<text x="518.0" y="248" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 248)">0</text>
+<text x="61.0" y="276" font-size="12" fill="#5b6a80" text-anchor="middle">B-03</text>
+<text x="126.0" y="278" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 278)">0.4</text>
+<text x="238.0" y="278" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 278)">0.3</text>
+<text x="406.0" y="278" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 278)">0.5</text>
+<text x="518.0" y="278" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 278)">0.4</text>
+<text x="61.0" y="306" font-size="12" fill="#5b6a80" text-anchor="middle">B-04</text>
+<text x="126.0" y="308" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 126.0 308)">-0.2</text>
+<text x="238.0" y="308" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 238.0 308)">-0.1</text>
+<text x="406.0" y="308" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 406.0 308)">0</text>
+<text x="518.0" y="308" font-size="17" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 518.0 308)">-0.2</text>
+<text x="24" y="352" font-size="13" fill="#52514e" text-anchor="start">这一张只在 8:00、10:00、13:00、15:00 四个时段量过，其余格空着。</text>
+</svg>

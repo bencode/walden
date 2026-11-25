@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 312" width="680" height="312" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>格子偏一列：格子整体左移一格时，找到的格子右边半格的窄条里还接着格线；正确的位置右边就是外框，窄条里没有线</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="311" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="30" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">正确的位置</text>
+<rect x="24" y="46" width="296" height="166" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<line x1="40" y1="54" x2="270" y2="54" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="40" y1="84" x2="270" y2="84" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="40" y1="114" x2="270" y2="114" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="40" y1="144" x2="270" y2="144" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="40" y1="174" x2="270" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="40" y1="54" x2="40" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="86" y1="54" x2="86" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="132" y1="54" x2="132" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="178" y1="54" x2="178" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="224" y1="54" x2="224" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="270" y1="54" x2="270" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="270" y1="50" x2="270" y2="174" stroke="#0b0b0b" stroke-width="2.2"/>
+<line x1="40" y1="174" x2="270" y2="174" stroke="#0b0b0b" stroke-width="2.2"/>
+<text x="274" y="194" font-size="11" fill="#5b6a80" text-anchor="start">外框</text>
+<rect x="86" y="54" width="184" height="120" rx="0" fill="none" stroke="#2f6fdf" stroke-width="2.4"/>
+<rect x="274" y="54" width="19.0" height="120" rx="0" fill="#dcefd9" opacity="0.7"/>
+<text x="24" y="226" font-size="12" fill="#52514e" text-anchor="start">找到的格子（蓝框）右边半格的窄条里：</text>
+<text x="24" y="246" font-size="13" fill="#2f7a3b" text-anchor="start" font-weight="600">没有格线 → 右边就是外框</text>
+<text x="344" y="30" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">整体偏左一列</text>
+<rect x="344" y="46" width="296" height="166" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<line x1="360" y1="54" x2="590" y2="54" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="360" y1="84" x2="590" y2="84" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="360" y1="114" x2="590" y2="114" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="360" y1="144" x2="590" y2="144" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="360" y1="174" x2="590" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="360" y1="54" x2="360" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="406" y1="54" x2="406" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="452" y1="54" x2="452" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="498" y1="54" x2="498" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="544" y1="54" x2="544" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="590" y1="54" x2="590" y2="174" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="590" y1="50" x2="590" y2="174" stroke="#0b0b0b" stroke-width="2.2"/>
+<line x1="360" y1="174" x2="590" y2="174" stroke="#0b0b0b" stroke-width="2.2"/>
+<text x="594" y="194" font-size="11" fill="#5b6a80" text-anchor="start">外框</text>
+<rect x="360" y="54" width="184" height="120" rx="0" fill="none" stroke="#2f6fdf" stroke-width="2.4"/>
+<rect x="548" y="54" width="19.0" height="120" rx="0" fill="#fde2dd" opacity="0.7"/>
+<line x1="548" y1="54" x2="567.0" y2="54" stroke="#d4483b" stroke-width="2.4"/>
+<line x1="548" y1="84" x2="567.0" y2="84" stroke="#d4483b" stroke-width="2.4"/>
+<line x1="548" y1="114" x2="567.0" y2="114" stroke="#d4483b" stroke-width="2.4"/>
+<line x1="548" y1="144" x2="567.0" y2="144" stroke="#d4483b" stroke-width="2.4"/>
+<line x1="548" y1="174" x2="567.0" y2="174" stroke="#d4483b" stroke-width="2.4"/>
+<text x="344" y="226" font-size="12" fill="#52514e" text-anchor="start">找到的格子（蓝框）右边半格的窄条里：</text>
+<text x="344" y="246" font-size="13" fill="#d4483b" text-anchor="start" font-weight="600">还接着格线 → 不是数据区，挪锚点再试</text>
+<text x="24" y="278" font-size="13" fill="#0b0b0b" text-anchor="start">格子整体偏一列时，格线照样能吸附上，格线找到的比例也照样高；外框外面的窄条能把它分出来。</text>
+<text x="24" y="298" font-size="13" fill="#52514e" text-anchor="start">照片有透视时外框是斜的，所以每一行看这一行自己的右框，每一列看这一列自己的底框。</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 379" width="680" height="379" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>定位的输出：纸面上叠着九个位置框，右边列出每个框的列名、内容和位置框坐标；只给位置，不给行号</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="378" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="16" y="16" width="342" height="204" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<line x1="24" y1="24" x2="350" y2="24" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="52" x2="350" y2="52" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="92" x2="350" y2="92" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="132" x2="350" y2="132" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="172" x2="350" y2="172" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="212" x2="350" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="24" y1="24" x2="24" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="50" y1="24" x2="50" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="168" y1="24" x2="168" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="246" y1="24" x2="246" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="350" y1="24" x2="350" y2="212" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="109.0" y="43" font-size="12" fill="#5b6a80" text-anchor="middle">报废原因</text>
+<text x="207.0" y="43" font-size="12" fill="#5b6a80" text-anchor="middle">报废数量</text>
+<text x="298.0" y="43" font-size="12" fill="#5b6a80" text-anchor="middle">操作工</text>
+<text x="37" y="77.0" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="37" y="117.0" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="37" y="157.0" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="37" y="197.0" font-size="12" fill="#5b6a80" text-anchor="middle">4</text>
+<text x="62" y="79" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 62 79)">尺寸超差</text>
+<rect x="58" y="60" width="84" height="28" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="140" y="57" font-size="10" fill="#2f6fdf" text-anchor="end">1</text>
+<text x="198.0" y="79" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 198.0 79)">2</text>
+<rect x="194.0" y="59" width="22" height="29" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="214.0" y="56" font-size="10" fill="#2f6fdf" text-anchor="end">2</text>
+<text x="258" y="79" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 258 79)">罗安平</text>
+<rect x="254" y="59" width="66" height="29" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="318" y="56" font-size="10" fill="#2f6fdf" text-anchor="end">3</text>
+<text x="62" y="119" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 62 119)">划伤</text>
+<rect x="58" y="100" width="44" height="28" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="100" y="97" font-size="10" fill="#2f6fdf" text-anchor="end">4</text>
+<text x="199.0" y="119" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 199.0 119)">1</text>
+<rect x="195.0" y="99" width="20" height="29" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="213.0" y="96" font-size="10" fill="#2f6fdf" text-anchor="end">5</text>
+<text x="258" y="119" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 258 119)">同上</text>
+<rect x="254" y="101" width="44" height="27" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="296" y="98" font-size="10" fill="#2f6fdf" text-anchor="end">6</text>
+<text x="62" y="159" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 62 159)">气泡</text>
+<rect x="58" y="140" width="44" height="28" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="100" y="137" font-size="10" fill="#2f6fdf" text-anchor="end">7</text>
+<text x="198.0" y="159" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 198.0 159)">3</text>
+<rect x="194.0" y="139" width="22" height="29" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="214.0" y="136" font-size="10" fill="#2f6fdf" text-anchor="end">8</text>
+<text x="258" y="179" font-size="21" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 258 179)">沈可</text>
+<rect x="254" y="157" width="50" height="31" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="302" y="154" font-size="10" fill="#2f6fdf" text-anchor="end">9</text>
+<text x="392" y="32" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">模型返回的每一项</text>
+<rect x="392" y="44" width="266" height="26" rx="0" fill="#f1f0ec"/>
+<text x="400" y="62" font-size="12" fill="#52514e" text-anchor="start" font-weight="500"></text>
+<text x="418" y="62" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">列</text>
+<text x="492" y="62" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">内容</text>
+<text x="552" y="62" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">位置框</text>
+<text x="402" y="88" font-size="11" fill="#2f6fdf" text-anchor="start">1</text>
+<text x="418" y="88" font-size="13" fill="#0b0b0b" text-anchor="start">报废原因</text>
+<text x="492" y="88" font-size="13" fill="#0b0b0b" text-anchor="start">尺寸超差</text>
+<text x="552" y="88" font-size="11" fill="#52514e" text-anchor="start">[102, 118, 241, 152]</text>
+<line x1="392" y1="97" x2="658" y2="97" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="115" font-size="11" fill="#2f6fdf" text-anchor="start">2</text>
+<text x="418" y="115" font-size="13" fill="#0b0b0b" text-anchor="start">报废数量</text>
+<text x="492" y="115" font-size="13" fill="#0b0b0b" text-anchor="start">2</text>
+<text x="552" y="115" font-size="11" fill="#52514e" text-anchor="start">[372, 119, 401, 151]</text>
+<line x1="392" y1="124" x2="658" y2="124" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="142" font-size="11" fill="#2f6fdf" text-anchor="start">3</text>
+<text x="418" y="142" font-size="13" fill="#0b0b0b" text-anchor="start">操作工</text>
+<text x="492" y="142" font-size="13" fill="#0b0b0b" text-anchor="start">罗安平</text>
+<text x="552" y="142" font-size="11" fill="#52514e" text-anchor="start">[452, 116, 563, 152]</text>
+<line x1="392" y1="151" x2="658" y2="151" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="169" font-size="11" fill="#2f6fdf" text-anchor="start">4</text>
+<text x="418" y="169" font-size="13" fill="#0b0b0b" text-anchor="start">报废原因</text>
+<text x="492" y="169" font-size="13" fill="#0b0b0b" text-anchor="start">划伤</text>
+<text x="552" y="169" font-size="11" fill="#52514e" text-anchor="start">[104, 196, 179, 228]</text>
+<line x1="392" y1="178" x2="658" y2="178" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="196" font-size="11" fill="#2f6fdf" text-anchor="start">5</text>
+<text x="418" y="196" font-size="13" fill="#0b0b0b" text-anchor="start">报废数量</text>
+<text x="492" y="196" font-size="13" fill="#0b0b0b" text-anchor="start">1</text>
+<text x="552" y="196" font-size="11" fill="#52514e" text-anchor="start">[374, 198, 398, 229]</text>
+<line x1="392" y1="205" x2="658" y2="205" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="223" font-size="11" fill="#2f6fdf" text-anchor="start">6</text>
+<text x="418" y="223" font-size="13" fill="#0b0b0b" text-anchor="start">操作工</text>
+<text x="492" y="223" font-size="13" fill="#0b0b0b" text-anchor="start">同上</text>
+<text x="552" y="223" font-size="11" fill="#52514e" text-anchor="start">[455, 197, 532, 229]</text>
+<line x1="392" y1="232" x2="658" y2="232" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="250" font-size="11" fill="#2f6fdf" text-anchor="start">7</text>
+<text x="418" y="250" font-size="13" fill="#0b0b0b" text-anchor="start">报废原因</text>
+<text x="492" y="250" font-size="13" fill="#0b0b0b" text-anchor="start">气泡</text>
+<text x="552" y="250" font-size="11" fill="#52514e" text-anchor="start">[103, 276, 181, 307]</text>
+<line x1="392" y1="259" x2="658" y2="259" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="277" font-size="11" fill="#2f6fdf" text-anchor="start">8</text>
+<text x="418" y="277" font-size="13" fill="#0b0b0b" text-anchor="start">报废数量</text>
+<text x="492" y="277" font-size="13" fill="#0b0b0b" text-anchor="start">3</text>
+<text x="552" y="277" font-size="11" fill="#52514e" text-anchor="start">[371, 275, 402, 309]</text>
+<line x1="392" y1="286" x2="658" y2="286" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="402" y="304" font-size="11" fill="#2f6fdf" text-anchor="start">9</text>
+<text x="418" y="304" font-size="13" fill="#0b0b0b" text-anchor="start">操作工</text>
+<text x="492" y="304" font-size="13" fill="#0b0b0b" text-anchor="start">沈可</text>
+<text x="552" y="304" font-size="11" fill="#52514e" text-anchor="start">[458, 300, 545, 347]</text>
+<line x1="392" y1="313" x2="658" y2="313" stroke="#d9d6cf" stroke-width="0.6"/>
+<text x="24" y="337" font-size="13" fill="#0b0b0b" text-anchor="start">模型只给出列、写的内容和位置框（0–1000 的相对坐标），不给行号；第 4 行是空行，没有项。</text>
+<text x="24" y="358" font-size="13" fill="#52514e" text-anchor="start">每一项属于哪一行，由程序按表格线判定。括号、连线不算一项。</text>
+</svg>

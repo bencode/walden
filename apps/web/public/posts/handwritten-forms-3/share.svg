@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 477" width="680" height="477" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>主行占比与两条标黄规则：左框几乎全在第 2 行，主行明确；中框跨第 2、3 行，占比 0.6 和 0.4，两行都标黄；右框在第 3 行，框里的字与识别的值不同，标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="476" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="30" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">① 主行明确</text>
+<rect x="24" y="42" width="196" height="162" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="34" y="58" font-size="12" fill="#5b6a80" text-anchor="start">操作工</text>
+<line x1="54" y1="64" x2="220" y2="64" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="54" y1="108" x2="220" y2="108" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="54" y1="152" x2="220" y2="152" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="54" y1="196" x2="220" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="54" y1="42" x2="54" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="39" y="91" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="39" y="135" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="39" y="179" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="76" y="94" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 76 94)">罗安平</text>
+<text x="76" y="182" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 76 182)">沈可</text>
+<text x="128" y="137.51999999999998" font-size="20" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 128 137.51999999999998)">唐一鸣</text>
+<rect x="122" y="113.52" width="70" height="34" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="242" y="30" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">② 压线</text>
+<rect x="242" y="42" width="196" height="162" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="252" y="58" font-size="12" fill="#5b6a80" text-anchor="start">操作工</text>
+<line x1="272" y1="64" x2="438" y2="64" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="272" y1="108" x2="438" y2="108" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="272" y1="152" x2="438" y2="152" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="272" y1="196" x2="438" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="272" y1="42" x2="272" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="257" y="91" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="257" y="135" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="257" y="179" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="294" y="94" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 294 94)">罗安平</text>
+<text x="346" y="157.76" font-size="20" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 346 157.76)">沈可</text>
+<rect x="340" y="133.76" width="70" height="34" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="460" y="30" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">③ 对不上</text>
+<rect x="460" y="42" width="196" height="162" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="470" y="58" font-size="12" fill="#5b6a80" text-anchor="start">操作工</text>
+<line x1="490" y1="64" x2="656" y2="64" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="490" y1="108" x2="656" y2="108" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="490" y1="152" x2="656" y2="152" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="490" y1="196" x2="656" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="490" y1="42" x2="490" y2="196" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="475" y="91" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="475" y="135" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="475" y="179" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="512" y="94" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 512 94)">罗安平</text>
+<text x="512" y="138" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 512 138)">唐一鸣</text>
+<text x="564" y="182.4" font-size="20" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 564 182.4)">程立</text>
+<rect x="558" y="158.4" width="70" height="34" rx="2" fill="none" stroke="#2f6fdf" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="24" y="226" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">识别结果</text>
+<rect x="54" y="236" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="137.0" y="258.0" font-size="14" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<text x="39" y="258" font-size="12" fill="#52514e" text-anchor="middle">1</text>
+<rect x="54" y="270" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="137.0" y="292.0" font-size="14" fill="#0b0b0b" text-anchor="middle">唐一鸣</text>
+<text x="39" y="292" font-size="12" fill="#52514e" text-anchor="middle">2</text>
+<rect x="54" y="304" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="137.0" y="326.0" font-size="14" fill="#0b0b0b" text-anchor="middle">沈可</text>
+<text x="39" y="326" font-size="12" fill="#52514e" text-anchor="middle">3</text>
+<text x="24" y="362" font-size="12" fill="#52514e" text-anchor="start">第 2 行占比 0.95</text>
+<text x="24" y="381" font-size="12" fill="#52514e" text-anchor="start">框里的字与识别的值相同</text>
+<text x="24" y="400" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">不标黄</text>
+<text x="242" y="226" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">识别结果</text>
+<rect x="272" y="236" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="355.0" y="258.0" font-size="14" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<text x="257" y="258" font-size="12" fill="#52514e" text-anchor="middle">1</text>
+<rect x="272" y="270" width="166" height="34" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="257" y="292" font-size="12" fill="#52514e" text-anchor="middle">2</text>
+<rect x="272" y="304" width="166" height="34" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="355.0" y="326.0" font-size="14" fill="#0b0b0b" text-anchor="middle">沈可</text>
+<text x="257" y="326" font-size="12" fill="#52514e" text-anchor="middle">3</text>
+<text x="242" y="362" font-size="12" fill="#52514e" text-anchor="start">第 2、3 行占比 0.6、0.4（压线）</text>
+<text x="242" y="381" font-size="12" fill="#52514e" text-anchor="start">第 2 行别的列有字，这一格识别为空</text>
+<text x="242" y="400" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">两行都标黄，「沈可」加入候选</text>
+<text x="460" y="226" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">识别结果</text>
+<rect x="490" y="236" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="573.0" y="258.0" font-size="14" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<text x="475" y="258" font-size="12" fill="#52514e" text-anchor="middle">1</text>
+<rect x="490" y="270" width="166" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="573.0" y="292.0" font-size="14" fill="#0b0b0b" text-anchor="middle">唐一鸣</text>
+<text x="475" y="292" font-size="12" fill="#52514e" text-anchor="middle">2</text>
+<rect x="490" y="304" width="166" height="34" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="573.0" y="326.0" font-size="14" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<text x="475" y="326" font-size="12" fill="#52514e" text-anchor="middle">3</text>
+<text x="460" y="362" font-size="12" fill="#52514e" text-anchor="start">第 3 行占比 0.9；框里是「程立」</text>
+<text x="460" y="381" font-size="12" fill="#52514e" text-anchor="start">识别的值是「罗安平」</text>
+<text x="460" y="400" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">对不上，标黄</text>
+<text x="24" y="437" font-size="13" fill="#52514e" text-anchor="start">虚线框是定位给出的位置框。压线时只标有内容的行（这一行任何一列写了字），</text>
+<text x="24" y="457" font-size="13" fill="#52514e" text-anchor="start">这一格识别为空也标。这两条规则只增加黄格，不改任何值。</text>
+</svg>
