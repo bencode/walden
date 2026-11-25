@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 546" width="680" height="546" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>名单实验：不给名单时两家读得不同而标黄；给了名单，两家都选了名单上字形相近的同一个人，读法一致，成了静默错误</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="545" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="38" font-size="14" fill="#52514e" text-anchor="start">纸面上的操作工「屈志远」是新来的，还不在主数据里</text>
+<text x="24" y="80" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">不给名单</text>
+<text x="24" y="112" font-size="13" fill="#52514e" text-anchor="start">纸面</text>
+<rect x="24" y="120" width="120" height="56" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="36" y="155.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 36 155.0)">屈志远</text>
+<text x="200" y="112" font-size="13" fill="#52514e" text-anchor="start">读数</text>
+<rect x="200" y="120" width="190" height="28" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="210" y="139" font-size="13" fill="#52514e" text-anchor="start">千问</text>
+<text x="296" y="139" font-size="15" fill="#0b0b0b" text-anchor="start">屈志元</text>
+<rect x="200" y="148" width="190" height="28" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="210" y="167" font-size="13" fill="#52514e" text-anchor="start">DeepSeek</text>
+<text x="296" y="167" font-size="15" fill="#0b0b0b" text-anchor="start">屈志远</text>
+<line x1="150" y1="148" x2="194" y2="148" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<line x1="396" y1="148" x2="446" y2="148" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="452" y="112" font-size="13" fill="#52514e" text-anchor="start">显示</text>
+<rect x="452" y="120" width="120" height="56" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="464" y="154.0" font-size="16" fill="#0b0b0b" text-anchor="start">屈志元</text>
+<text x="584" y="144" font-size="14" fill="#52514e" text-anchor="start" font-weight="600">标黄</text>
+<text x="24" y="204" font-size="14" fill="#52514e" text-anchor="start">两家读得不同 → 标黄；</text>
+<text x="24" y="225" font-size="14" fill="#52514e" text-anchor="start">读出的名字也不在主数据里，人名检查同样会标黄。</text>
+<line x1="24" y1="264" x2="656" y2="264" stroke="#d9d6cf" stroke-width="1"/>
+<text x="24" y="302" font-size="16" fill="#d4483b" text-anchor="start" font-weight="700">给名单</text>
+<text x="140" y="302" font-size="13" fill="#52514e" text-anchor="start">提示里附上名单：</text>
+<rect x="250" y="286" width="66" height="24" rx="12" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="283.0" y="303" font-size="13" fill="#52514e" text-anchor="middle">程立新</text>
+<rect x="324" y="286" width="66" height="24" rx="12" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="357.0" y="303" font-size="13" fill="#52514e" text-anchor="middle">秦海波</text>
+<rect x="398" y="286" width="66" height="24" rx="12" fill="#eef3fd" stroke="#2f6fdf" stroke-width="1.2"/>
+<text x="431.0" y="303" font-size="13" fill="#2f6fdf" text-anchor="middle" font-weight="600">屈志达</text>
+<rect x="472" y="286" width="50" height="24" rx="12" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="497.0" y="303" font-size="13" fill="#52514e" text-anchor="middle">何嘉</text>
+<rect x="530" y="286" width="50" height="24" rx="12" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="555.0" y="303" font-size="13" fill="#52514e" text-anchor="middle">方晓</text>
+<text x="24" y="348" font-size="13" fill="#52514e" text-anchor="start">纸面</text>
+<rect x="24" y="356" width="120" height="56" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="36" y="391.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 36 391.0)">屈志远</text>
+<text x="200" y="348" font-size="13" fill="#52514e" text-anchor="start">读数</text>
+<rect x="200" y="356" width="190" height="28" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="210" y="375" font-size="13" fill="#52514e" text-anchor="start">千问</text>
+<text x="296" y="375" font-size="15" fill="#0b0b0b" text-anchor="start">屈志达</text>
+<rect x="200" y="384" width="190" height="28" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="210" y="403" font-size="13" fill="#52514e" text-anchor="start">DeepSeek</text>
+<text x="296" y="403" font-size="15" fill="#0b0b0b" text-anchor="start">屈志达</text>
+<line x1="150" y1="384" x2="194" y2="384" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<line x1="396" y1="384" x2="446" y2="384" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="452" y="348" font-size="13" fill="#52514e" text-anchor="start">显示</text>
+<rect x="452" y="356" width="120" height="56" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="464" y="390.0" font-size="16" fill="#0b0b0b" text-anchor="start">屈志达</text>
+<rect x="448" y="352" width="128" height="64" rx="4" fill="none" stroke="#d4483b" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="584" y="380" font-size="14" fill="#d4483b" text-anchor="start" font-weight="700">静默错误</text>
+<text x="24" y="440" font-size="14" fill="#d4483b" text-anchor="start">两家都选了名单上字形相近的「屈志达」：读法一致，名字也在主数据里，</text>
+<text x="24" y="461" font-size="14" fill="#d4483b" text-anchor="start">投票和人名检查都发现不了。</text>
+<rect x="24" y="482" width="632" height="44" rx="6" fill="#fde2dd" stroke="#d4483b" stroke-width="1.4"/>
+<text x="340.0" y="510" font-size="16" fill="#d4483b" text-anchor="middle" font-weight="700">名单让两家错到同一处</text>
+</svg>

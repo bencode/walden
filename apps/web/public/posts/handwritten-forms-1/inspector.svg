@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 668" width="680" height="668" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>检验员拆字：名字拆开竖写在几行里，拆开的字都能归到名单里同一个人时整列填上；多出一个名单里没有的字时，这一列标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="667" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="38" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">① 拆开的字都能归到同一个人</text>
+<rect x="28" y="54" width="122" height="216" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="102.0" y="78" font-size="13" fill="#5b6a80" text-anchor="middle">检验员</text>
+<line x1="36" y1="86" x2="142" y2="86" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="120" x2="142" y2="120" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="154" x2="142" y2="154" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="188" x2="142" y2="188" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="222" x2="142" y2="222" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="256" x2="142" y2="256" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="62" y1="62" x2="142" y2="62" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="86" x2="36" y2="256" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="62" y1="62" x2="62" y2="256" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="142" y1="62" x2="142" y2="256" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="49" y="108.0" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="102.0" y="127.33333333333333" font-size="22" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 102.0 127.33333333333333)">方</text>
+<text x="49" y="142.0" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="49" y="176.0" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="102.0" y="195.33333333333334" font-size="22" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 102.0 195.33333333333334)">晓</text>
+<text x="49" y="210.0" font-size="12" fill="#5b6a80" text-anchor="middle">4</text>
+<text x="49" y="244.0" font-size="12" fill="#5b6a80" text-anchor="middle">5</text>
+<rect x="230" y="78" width="150" height="132" rx="6" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="242" y="99" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">主数据：检验员</text>
+<rect x="236" y="111" width="138" height="28" rx="4" fill="#eef3fd"/>
+<text x="246" y="131" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600">方晓</text>
+<text x="374" y="130" font-size="12" fill="#2f6fdf" text-anchor="end">命中 2 格</text>
+<text x="246" y="165" font-size="16" fill="#0b0b0b" text-anchor="start">柯敏</text>
+<text x="246" y="199" font-size="16" fill="#0b0b0b" text-anchor="start">陈立华</text>
+<line x1="146" y1="103" x2="226" y2="125" stroke="#2f6fdf" stroke-width="1.2" marker-end="url(#arrow-2f6fdf)"/>
+<line x1="146" y1="171" x2="226" y2="125" stroke="#2f6fdf" stroke-width="1.2" marker-end="url(#arrow-2f6fdf)"/>
+<line x1="386" y1="138" x2="490" y2="138" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<rect x="500" y="62" width="120" height="24" rx="0" fill="#f1f0ec"/>
+<text x="510" y="79" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">识别结果</text>
+<text x="510" y="109.0" font-size="16" fill="#0b0b0b" text-anchor="start">方晓</text>
+<line x1="500" y1="120" x2="620" y2="120" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="510" y="143.0" font-size="16" fill="#0b0b0b" text-anchor="start">方晓</text>
+<line x1="500" y1="154" x2="620" y2="154" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="510" y="177.0" font-size="16" fill="#0b0b0b" text-anchor="start">方晓</text>
+<line x1="500" y1="188" x2="620" y2="188" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="510" y="211.0" font-size="16" fill="#0b0b0b" text-anchor="start">方晓</text>
+<line x1="500" y1="222" x2="620" y2="222" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="510" y="245.0" font-size="16" fill="#0b0b0b" text-anchor="start">方晓</text>
+<line x1="500" y1="256" x2="620" y2="256" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="500" y="62" width="120" height="194" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<text x="230" y="258" font-size="14" fill="#52514e" text-anchor="start">名单里只对上一位，所有字都能归给这一位</text>
+<text x="230" y="279" font-size="14" fill="#52514e" text-anchor="start">→ 整列填「方晓」</text>
+<text x="24" y="358" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">② 多出一个名单里没有的字</text>
+<rect x="28" y="374" width="122" height="216" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="102.0" y="398" font-size="13" fill="#5b6a80" text-anchor="middle">检验员</text>
+<line x1="36" y1="406" x2="142" y2="406" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="440" x2="142" y2="440" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="474" x2="142" y2="474" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="508" x2="142" y2="508" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="542" x2="142" y2="542" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="576" x2="142" y2="576" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="62" y1="382" x2="142" y2="382" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="36" y1="406" x2="36" y2="576" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="62" y1="382" x2="62" y2="576" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="142" y1="382" x2="142" y2="576" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="49" y="428.0" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="102.0" y="447.3333333333333" font-size="22" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 102.0 447.3333333333333)">方</text>
+<text x="49" y="462.0" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="49" y="496.0" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="102.0" y="515.3333333333333" font-size="22" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 102.0 515.3333333333333)">晓</text>
+<text x="49" y="530.0" font-size="12" fill="#5b6a80" text-anchor="middle">4</text>
+<text x="49" y="564.0" font-size="12" fill="#5b6a80" text-anchor="middle">5</text>
+<text x="102.0" y="570.0" font-size="21" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 102.0 570.0)">李</text>
+<rect x="230" y="398" width="150" height="132" rx="6" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="242" y="419" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">主数据：检验员</text>
+<rect x="236" y="431" width="138" height="28" rx="4" fill="#eef3fd"/>
+<text x="246" y="451" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600">方晓</text>
+<text x="374" y="450" font-size="12" fill="#2f6fdf" text-anchor="end">命中 2 格</text>
+<text x="246" y="485" font-size="16" fill="#0b0b0b" text-anchor="start">柯敏</text>
+<text x="246" y="519" font-size="16" fill="#0b0b0b" text-anchor="start">陈立华</text>
+<line x1="146" y1="423" x2="226" y2="445" stroke="#2f6fdf" stroke-width="1.2" marker-end="url(#arrow-2f6fdf)"/>
+<line x1="146" y1="491" x2="226" y2="445" stroke="#2f6fdf" stroke-width="1.2" marker-end="url(#arrow-2f6fdf)"/>
+<line x1="146" y1="559" x2="226" y2="544" stroke="#d4483b" stroke-width="1.2" marker-end="url(#arrow-d4483b)"/>
+<text x="234" y="550" font-size="13" fill="#d4483b" text-anchor="start">名单里没有</text>
+<line x1="386" y1="458" x2="490" y2="458" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<rect x="500" y="382" width="120" height="24" rx="0" fill="#f1f0ec"/>
+<text x="510" y="399" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">识别结果</text>
+<rect x="501" y="407" width="118" height="32" rx="0" fill="#fbe7a1"/>
+<line x1="500" y1="440" x2="620" y2="440" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="501" y="441" width="118" height="32" rx="0" fill="#fbe7a1"/>
+<line x1="500" y1="474" x2="620" y2="474" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="501" y="475" width="118" height="32" rx="0" fill="#fbe7a1"/>
+<line x1="500" y1="508" x2="620" y2="508" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="501" y="509" width="118" height="32" rx="0" fill="#fbe7a1"/>
+<line x1="500" y1="542" x2="620" y2="542" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="501" y="543" width="118" height="32" rx="0" fill="#fbe7a1"/>
+<line x1="500" y1="576" x2="620" y2="576" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="500" y="382" width="120" height="194" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<text x="230" y="594" font-size="14" fill="#52514e" text-anchor="start">「李」不属于名单里任何人的名字，</text>
+<text x="230" y="615" font-size="14" fill="#52514e" text-anchor="start">可能是没认出的另一位检验员</text>
+<text x="230" y="636" font-size="14" fill="#52514e" text-anchor="start">→ 不当成同一个人，这一列标黄</text>
+</svg>

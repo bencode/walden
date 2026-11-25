@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 438" width="680" height="438" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>逐格投票：两家相同直接采用，不同或一家没读到时标黄；两家读成同一个错值时也直接采用，投票发现不了</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="437" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="36" y="41" font-size="13" fill="#52514e" text-anchor="start" font-weight="500"></text>
+<text x="200" y="41" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">纸面</text>
+<text x="316" y="41" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">千问</text>
+<text x="424" y="41" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">DeepSeek</text>
+<text x="532" y="41" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">显示</text>
+<text x="32" y="76" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">① 两家相同</text>
+<text x="32" y="97" font-size="12" fill="#52514e" text-anchor="start">直接采用</text>
+<rect x="188" y="52" width="116" height="58" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="200" y="88.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 200 88.0)">砂眼</text>
+<rect x="304" y="52" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="316" y="87.0" font-size="16" fill="#0b0b0b" text-anchor="start">砂眼</text>
+<rect x="412" y="52" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="424" y="87.0" font-size="16" fill="#0b0b0b" text-anchor="start">砂眼</text>
+<rect x="520" y="52" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="532" y="87.0" font-size="16" fill="#0b0b0b" text-anchor="start">砂眼</text>
+<text x="32" y="144" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">② 两家不同</text>
+<text x="32" y="165" font-size="12" fill="#52514e" text-anchor="start">标黄，两个读数列为候选</text>
+<rect x="188" y="120" width="116" height="58" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="200" y="156.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 200 156.0)">王芳</text>
+<rect x="304" y="120" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="316" y="155.0" font-size="16" fill="#0b0b0b" text-anchor="start">王芳</text>
+<rect x="412" y="120" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="424" y="155.0" font-size="16" fill="#0b0b0b" text-anchor="start">王方</text>
+<rect x="520" y="120" width="108" height="58" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="532" y="155.0" font-size="16" fill="#0b0b0b" text-anchor="start">王芳</text>
+<text x="32" y="212" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">③ 一家没读到</text>
+<text x="32" y="233" font-size="12" fill="#52514e" text-anchor="start">标黄</text>
+<rect x="188" y="188" width="116" height="58" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="200" y="224.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 200 224.0)">李明</text>
+<rect x="304" y="188" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="316" y="223.0" font-size="16" fill="#0b0b0b" text-anchor="start">李明</text>
+<rect x="412" y="188" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="424" y="222.0" font-size="12" fill="#8c8a83" text-anchor="start">空</text>
+<rect x="520" y="188" width="108" height="58" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="532" y="223.0" font-size="16" fill="#0b0b0b" text-anchor="start">李明</text>
+<rect x="18" y="278" width="616" height="74" rx="8" fill="#fde2dd" stroke="#d4483b" stroke-width="1.8"/>
+<text x="32" y="310" font-size="14" fill="#d4483b" text-anchor="start" font-weight="700">④ 两家读成同一个错值</text>
+<text x="32" y="331" font-size="12" fill="#52514e" text-anchor="start">直接采用</text>
+<rect x="188" y="286" width="116" height="58" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="200" y="322.0" font-size="19" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 200 322.0)">缸孔偏小</text>
+<rect x="304" y="286" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="316" y="321.0" font-size="16" fill="#0b0b0b" text-anchor="start">加工孔偏小</text>
+<rect x="412" y="286" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="424" y="321.0" font-size="16" fill="#0b0b0b" text-anchor="start">加工孔偏小</text>
+<rect x="520" y="286" width="108" height="58" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="532" y="321.0" font-size="16" fill="#0b0b0b" text-anchor="start">加工孔偏小</text>
+<rect x="498" y="265" width="124" height="26" rx="13" fill="#d4483b"/>
+<text x="560" y="283" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">投票发现不了</text>
+<text x="24" y="386" font-size="14" fill="#0b0b0b" text-anchor="start">④ 的纸面写的是「缸孔偏小」，两家都读成「加工孔偏小」：读法一致，不标黄，</text>
+<text x="24" y="407" font-size="14" fill="#0b0b0b" text-anchor="start">人也不会再看这一格。投票只能发现两家读得不一样的地方。</text>
+</svg>

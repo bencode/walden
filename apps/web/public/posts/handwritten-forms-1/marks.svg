@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 323" width="680" height="323" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>合格记号简写：写进读图说明之前两家都读成空白、不标黄，整行漏掉；写进之后两家不一致，这些格标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="322" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="34" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">① 写进读图说明之前</text>
+<text x="28" y="80.0" font-size="13" fill="#52514e" text-anchor="start">纸面</text>
+<rect x="98" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="126.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="142" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="170.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="186" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="214.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="230" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="258.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="274" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="302.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<text x="28" y="118.0" font-size="13" fill="#52514e" text-anchor="start">千问</text>
+<rect x="98" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="120.0" y="118.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="142" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="164.0" y="118.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="186" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="208.0" y="118.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="230" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="252.0" y="118.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="274" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="296.0" y="118.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<text x="28" y="156.0" font-size="13" fill="#52514e" text-anchor="start">DeepSeek</text>
+<rect x="98" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="120.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="142" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="164.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="186" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="208.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="230" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="252.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="274" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="296.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<text x="28" y="194.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">显示</text>
+<rect x="98" y="170" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="142" y="170" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="186" y="170" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="230" y="170" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="274" y="170" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="95" y="167" width="226" height="44" rx="3" fill="none" stroke="#d4483b" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="208.0" y="194.0" font-size="14" fill="#d4483b" text-anchor="middle" font-weight="700">漏掉</text>
+<text x="24" y="240" font-size="14" fill="#d4483b" text-anchor="start">两家都读成空白，读法一致，</text>
+<text x="24" y="261" font-size="14" fill="#d4483b" text-anchor="start">不标黄：整行合格记号漏掉</text>
+<text x="354" y="34" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">② 写进读图说明之后</text>
+<text x="358" y="80.0" font-size="13" fill="#52514e" text-anchor="start">纸面</text>
+<rect x="428" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="456.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="472" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="500.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="516" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="544.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="560" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="588.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<rect x="604" y="56" width="44" height="38" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="632.0" y="79.0" font-size="24" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">、</text>
+<text x="358" y="118.0" font-size="13" fill="#52514e" text-anchor="start">千问</text>
+<rect x="428" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="450.0" y="119.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="472" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="494.0" y="119.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="516" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="538.0" y="119.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="560" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="582.0" y="119.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="604" y="94" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="626.0" y="119.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<text x="358" y="156.0" font-size="13" fill="#52514e" text-anchor="start">DeepSeek</text>
+<rect x="428" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="450.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="472" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="494.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="516" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="538.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="560" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="582.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<rect x="604" y="132" width="44" height="38" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="626.0" y="156.0" font-size="12" fill="#8c8a83" text-anchor="middle">空</text>
+<text x="358" y="194.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">显示</text>
+<rect x="428" y="170" width="44" height="38" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="450.0" y="195.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="472" y="170" width="44" height="38" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="494.0" y="195.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="516" y="170" width="44" height="38" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="538.0" y="195.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="560" y="170" width="44" height="38" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="582.0" y="195.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<rect x="604" y="170" width="44" height="38" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="626.0" y="195.0" font-size="17" fill="#0b0b0b" text-anchor="middle">○</text>
+<text x="354" y="240" font-size="14" fill="#52514e" text-anchor="start">千问读出「○」，DeepSeek 仍是空白，</text>
+<text x="354" y="261" font-size="14" fill="#52514e" text-anchor="start">两家不一致：这些格标黄</text>
+<text x="24" y="301" font-size="13" fill="#8c8a83" text-anchor="start">检验员把合格记号「○」简写成一小笔「、」。</text>
+</svg>

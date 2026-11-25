@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 524" width="680" height="524" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>订正：单据文字和程序查好的资料交给文字模型一次调用，每个待定格返回一个值和理由，筛选后填进黄格，格子仍标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="523" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="24" y="24" width="290" height="196" rx="8" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="38" y="48" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">单据文字</text>
+<text x="38" y="76" font-size="12.5" fill="#52514e" text-anchor="start">第 4 行：产品=「3105体L」；报废数量=「1」；</text>
+<text x="38" y="96" font-size="12.5" fill="#52514e" text-anchor="start">　操作工=「程立新」；…</text>
+<text x="38" y="116" font-size="12.5" fill="#52514e" text-anchor="start">第 5 行：产品=「4417钳体R」；</text>
+<text x="38" y="136" font-size="12.5" fill="#52514e" text-anchor="start">　报废原因=「毛坯裂纹」；</text>
+<rect x="98" y="141" width="136" height="20" rx="3" fill="#fbe7a1"/>
+<text x="38" y="156" font-size="12.5" fill="#0b0b0b" text-anchor="start">　操作工=【待定 r5.操作工】</text>
+<text x="38" y="176" font-size="12.5" fill="#52514e" text-anchor="start">　千问读「何佳」，DeepSeek 读「柯嘉」；</text>
+<text x="38" y="196" font-size="12.5" fill="#52514e" text-anchor="start">　候选：何佳、柯嘉；…</text>
+<rect x="24" y="236" width="290" height="118" rx="8" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="38" y="260" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">程序查好的资料</text>
+<rect x="38" y="278" width="48" height="26" rx="13" fill="#eef3fd" stroke="#2f6fdf" stroke-width="0.8"/>
+<text x="62.0" y="296" font-size="13" fill="#2f6fdf" text-anchor="middle">人员</text>
+<rect x="94" y="278" width="76" height="26" rx="13" fill="#eef3fd" stroke="#2f6fdf" stroke-width="0.8"/>
+<text x="132.0" y="296" font-size="13" fill="#2f6fdf" text-anchor="middle">报废原因</text>
+<rect x="178" y="278" width="48" height="26" rx="13" fill="#eef3fd" stroke="#2f6fdf" stroke-width="0.8"/>
+<text x="202.0" y="296" font-size="13" fill="#2f6fdf" text-anchor="middle">厂商</text>
+<rect x="38" y="312" width="76" height="26" rx="13" fill="#eef3fd" stroke="#2f6fdf" stroke-width="0.8"/>
+<text x="76.0" y="330" font-size="13" fill="#2f6fdf" text-anchor="middle">单上产品</text>
+<rect x="122" y="312" width="118" height="26" rx="13" fill="#eef3fd" stroke="#2f6fdf" stroke-width="0.8"/>
+<text x="181.0" y="330" font-size="13" fill="#2f6fdf" text-anchor="middle">这些产品的历史</text>
+<rect x="340" y="150" width="96" height="92" rx="10" fill="#f1f0ec" stroke="#52514e" stroke-width="1.2"/>
+<text x="388.0" y="190" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">文字模型</text>
+<text x="388.0" y="214" font-size="13" fill="#52514e" text-anchor="middle">一次调用</text>
+<line x1="318" y1="134" x2="336" y2="180" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<line x1="318" y1="295" x2="336" y2="212" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<rect x="462" y="24" width="194" height="150" rx="8" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="476" y="48" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">每个待定格：值和理由</text>
+<text x="476" y="78" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="600">r5.操作工 = 何嘉</text>
+<text x="476" y="104" font-size="12.5" fill="#52514e" text-anchor="start">理由：「历史里 4417钳体R</text>
+<text x="476" y="124" font-size="12.5" fill="#52514e" text-anchor="start">多由何嘉做，两家读数都</text>
+<text x="476" y="144" font-size="12.5" fill="#52514e" text-anchor="start">和它形近」</text>
+<line x1="440" y1="196.0" x2="458" y2="114" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<line x1="559.0" y1="178" x2="559.0" y2="204" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<rect x="462" y="208" width="194" height="86" rx="8" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="476" y="232" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">筛选</text>
+<text x="476" y="258" font-size="13" fill="#52514e" text-anchor="start">只采纳待定格的值</text>
+<text x="476" y="280" font-size="13" fill="#52514e" text-anchor="start">人名须在主数据里</text>
+<line x1="559.0" y1="298" x2="559.0" y2="324" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="462" y="332" font-size="13" fill="#52514e" text-anchor="start">核对页</text>
+<rect x="462" y="342" width="194" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="1"/>
+<text x="474" y="366" font-size="16" fill="#0b0b0b" text-anchor="start">何嘉</text>
+<rect x="462" y="382" width="194" height="96" rx="6" fill="#ffffff" stroke="#d9d6cf" stroke-width="1"/>
+<text x="474" y="408" font-size="12" fill="#8c8a83" text-anchor="start">1</text>
+<text x="492" y="408" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">何嘉</text>
+<text x="538" y="408" font-size="12" fill="#2f6fdf" text-anchor="start">推断</text>
+<text x="474" y="436" font-size="12" fill="#8c8a83" text-anchor="start">2</text>
+<text x="492" y="436" font-size="14" fill="#0b0b0b" text-anchor="start">何佳</text>
+<text x="538" y="436" font-size="12" fill="#52514e" text-anchor="start">千问读数</text>
+<text x="474" y="464" font-size="12" fill="#8c8a83" text-anchor="start">3</text>
+<text x="492" y="464" font-size="14" fill="#0b0b0b" text-anchor="start">柯嘉</text>
+<text x="538" y="464" font-size="12" fill="#52514e" text-anchor="start">DeepSeek 读数</text>
+<text x="462" y="502" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">通过的值填进黄格，格子仍标黄</text>
+</svg>

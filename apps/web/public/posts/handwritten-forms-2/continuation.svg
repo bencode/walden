@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 514" width="680" height="514" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>续行照抄：只写了领用数量的行照抄上一行的产品、图号、责任单位；上一行是黄格时续行也标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="513" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="38" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">① 上一行确定：续行照抄</text>
+<text x="182" y="80" font-size="13" fill="#52514e" text-anchor="middle">照片</text>
+<text x="506" y="80" font-size="13" fill="#52514e" text-anchor="middle">识别结果</text>
+<rect x="24" y="90" width="316" height="112" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="78.0" y="114" font-size="12" fill="#5b6a80" text-anchor="middle">产品名称</text>
+<line x1="32" y1="98" x2="32" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="40" y="146" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 40 146)">3105体L</text>
+<text x="40" y="182" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 40 182)">〃</text>
+<text x="166.0" y="114" font-size="12" fill="#5b6a80" text-anchor="middle">图号</text>
+<line x1="124" y1="98" x2="124" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="132" y="146" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 132 146)">3105-101-</text>
+<text x="239.0" y="114" font-size="12" fill="#5b6a80" text-anchor="middle">责任单位</text>
+<line x1="208" y1="98" x2="208" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="216" y="146" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 216 146)">140</text>
+<text x="301.0" y="114" font-size="12" fill="#5b6a80" text-anchor="middle">领用数量</text>
+<line x1="270" y1="98" x2="270" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="278" y="146" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 278 146)">54</text>
+<text x="278" y="182" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 278 182)">86</text>
+<line x1="332" y1="98" x2="332" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="98" x2="332" y2="98" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="122" x2="332" y2="122" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="158" x2="332" y2="158" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="194" x2="332" y2="194" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="356" y="98" width="300" height="24" rx="0" fill="#f1f0ec"/>
+<text x="364" y="115" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">产品名称</text>
+<text x="364" y="146" font-size="15" fill="#0b0b0b" text-anchor="start">3105体L</text>
+<text x="364" y="182" font-size="15" fill="#5b6a80" text-anchor="start">3105体L</text>
+<text x="456" y="115" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">图号</text>
+<text x="456" y="146" font-size="15" fill="#0b0b0b" text-anchor="start">3105-101-</text>
+<text x="456" y="182" font-size="15" fill="#5b6a80" text-anchor="start">3105-101-</text>
+<text x="540" y="115" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">责任单位</text>
+<text x="540" y="146" font-size="15" fill="#0b0b0b" text-anchor="start">140</text>
+<text x="540" y="182" font-size="15" fill="#5b6a80" text-anchor="start">140</text>
+<text x="602" y="115" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">领用数量</text>
+<text x="602" y="146" font-size="15" fill="#0b0b0b" text-anchor="start">54</text>
+<text x="602" y="182" font-size="15" fill="#0b0b0b" text-anchor="start">86</text>
+<line x1="356" y1="158" x2="656" y2="158" stroke="#d9d6cf" stroke-width="0.8"/>
+<line x1="356" y1="194" x2="656" y2="194" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="356" y="98" width="300" height="96" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<line x1="342" y1="158" x2="350" y2="158" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="24" y="230" font-size="14" fill="#52514e" text-anchor="start">第 2 行只写了领用数量，产品、图号、责任单位照抄第 1 行（蓝灰字）；</text>
+<text x="24" y="251" font-size="14" fill="#52514e" text-anchor="start">流水号同样照抄，图中略去</text>
+<text x="24" y="288" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">② 上一行是黄格：续行也标黄</text>
+<text x="182" y="330" font-size="13" fill="#52514e" text-anchor="middle">照片</text>
+<text x="506" y="330" font-size="13" fill="#52514e" text-anchor="middle">识别结果</text>
+<rect x="24" y="340" width="316" height="112" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="78.0" y="364" font-size="12" fill="#5b6a80" text-anchor="middle">产品名称</text>
+<line x1="32" y1="348" x2="32" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="40" y="396" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 40 396)">3105体L</text>
+<text x="40" y="432" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 40 432)">〃</text>
+<text x="166.0" y="364" font-size="12" fill="#5b6a80" text-anchor="middle">图号</text>
+<line x1="124" y1="348" x2="124" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="132" y="396" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 132 396)">3105-101-</text>
+<text x="239.0" y="364" font-size="12" fill="#5b6a80" text-anchor="middle">责任单位</text>
+<line x1="208" y1="348" x2="208" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="216" y="396" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 216 396)">140</text>
+<text x="301.0" y="364" font-size="12" fill="#5b6a80" text-anchor="middle">领用数量</text>
+<line x1="270" y1="348" x2="270" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="278" y="396" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 278 396)">54</text>
+<text x="278" y="432" font-size="17" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-1.5 278 432)">86</text>
+<line x1="332" y1="348" x2="332" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="348" x2="332" y2="348" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="372" x2="332" y2="372" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="408" x2="332" y2="408" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="32" y1="444" x2="332" y2="444" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="356" y="348" width="300" height="24" rx="0" fill="#f1f0ec"/>
+<text x="364" y="365" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">产品名称</text>
+<rect x="357" y="373" width="90" height="34" rx="0" fill="#fbe7a1"/>
+<text x="364" y="396" font-size="15" fill="#0b0b0b" text-anchor="start">3105体L</text>
+<rect x="357" y="409" width="90" height="34" rx="0" fill="#fbe7a1"/>
+<text x="364" y="432" font-size="15" fill="#5b6a80" text-anchor="start">3105体L</text>
+<text x="456" y="365" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">图号</text>
+<text x="456" y="396" font-size="15" fill="#0b0b0b" text-anchor="start">3105-101-</text>
+<text x="456" y="432" font-size="15" fill="#5b6a80" text-anchor="start">3105-101-</text>
+<text x="540" y="365" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">责任单位</text>
+<text x="540" y="396" font-size="15" fill="#0b0b0b" text-anchor="start">140</text>
+<text x="540" y="432" font-size="15" fill="#5b6a80" text-anchor="start">140</text>
+<text x="602" y="365" font-size="12" fill="#52514e" text-anchor="start" font-weight="500">领用数量</text>
+<text x="602" y="396" font-size="15" fill="#0b0b0b" text-anchor="start">54</text>
+<text x="602" y="432" font-size="15" fill="#0b0b0b" text-anchor="start">86</text>
+<line x1="356" y1="408" x2="656" y2="408" stroke="#d9d6cf" stroke-width="0.8"/>
+<line x1="356" y1="444" x2="656" y2="444" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="356" y="348" width="300" height="96" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<line x1="342" y1="408" x2="350" y2="408" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="24" y="480" font-size="14" fill="#52514e" text-anchor="start">第 1 行的产品两家读得不同（3105体L / 3106体L），</text>
+<text x="24" y="501" font-size="14" fill="#52514e" text-anchor="start">照抄到第 2 行的产品也标黄，候选相同</text>
+</svg>
