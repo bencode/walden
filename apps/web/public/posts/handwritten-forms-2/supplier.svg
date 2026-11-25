@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 452" width="680" height="452" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>厂商代码分段：照片上用大括号分两段，识别只照录写了字的格，推断时第 4 行填成了上一段的代码，定稿后不标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="451" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="24" y="30" font-size="14" fill="#52514e" text-anchor="start">照片上用大括号分成两段，每段只写一次代码；识别时只照录每一格里写的字</text>
+<rect x="46" y="84" width="132" height="262" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<text x="125.0" y="108" font-size="13" fill="#5b6a80" text-anchor="middle">厂商代码</text>
+<line x1="54" y1="116" x2="170" y2="116" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="152" x2="170" y2="152" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="188" x2="170" y2="188" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="224" x2="170" y2="224" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="260" x2="170" y2="260" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="296" x2="170" y2="296" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="332" x2="170" y2="332" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="80" y1="92" x2="170" y2="92" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="54" y1="116" x2="54" y2="332" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="80" y1="92" x2="80" y2="332" stroke="#9fb0c4" stroke-width="0.8"/>
+<line x1="170" y1="92" x2="170" y2="332" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="67" y="139.0" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="67" y="175.0" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="125.0" y="176.33333333333334" font-size="19" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 125.0 176.33333333333334)">Z07</text>
+<text x="67" y="211.0" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="67" y="247.0" font-size="12" fill="#5b6a80" text-anchor="middle">4</text>
+<text x="67" y="283.0" font-size="12" fill="#5b6a80" text-anchor="middle">5</text>
+<text x="125.0" y="284.3333333333333" font-size="19" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 125.0 284.3333333333333)">Z13</text>
+<text x="67" y="319.0" font-size="12" fill="#5b6a80" text-anchor="middle">6</text>
+<path d="M152 120 q7 0 7 9 V164.0 q0 6 6 6 q-6 0 -6 6 V211 q0 9 -7 9" fill="none" stroke="#1f3a6b" stroke-width="1.3"/>
+<path d="M152 228 q7 0 7 9 V272.0 q0 6 6 6 q-6 0 -6 6 V319 q0 9 -7 9" fill="none" stroke="#1f3a6b" stroke-width="1.3"/>
+<text x="125" y="70" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="600">照片</text>
+<text x="313" y="70" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="600">两家照录</text>
+<rect x="258" y="92" width="110" height="24" rx="0" fill="#f1f0ec"/>
+<text x="268" y="109" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">照录</text>
+<line x1="258" y1="152" x2="368" y2="152" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="268" y="176.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z07</text>
+<line x1="258" y1="188" x2="368" y2="188" stroke="#d9d6cf" stroke-width="0.8"/>
+<line x1="258" y1="224" x2="368" y2="224" stroke="#d9d6cf" stroke-width="0.8"/>
+<line x1="258" y1="260" x2="368" y2="260" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="268" y="284.0" font-size="16" fill="#0b0b0b" text-anchor="start">213</text>
+<line x1="258" y1="296" x2="368" y2="296" stroke="#d9d6cf" stroke-width="0.8"/>
+<line x1="258" y1="332" x2="368" y2="332" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="258" y="92" width="110" height="240" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<line x1="210" y1="224" x2="250" y2="224" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<text x="505" y="70" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="600">推断后定稿</text>
+<line x1="376" y1="224" x2="442" y2="224" stroke="#52514e" stroke-width="1.4" marker-end="url(#arrow-52514e)"/>
+<rect x="450" y="92" width="100" height="24" rx="0" fill="#f1f0ec"/>
+<text x="460" y="109" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">厂商代码</text>
+<text x="460" y="140.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z07</text>
+<line x1="450" y1="152" x2="550" y2="152" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="460" y="176.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z07</text>
+<line x1="450" y1="188" x2="550" y2="188" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="460" y="212.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z07</text>
+<line x1="450" y1="224" x2="550" y2="224" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="453" y="227" width="94" height="30" rx="2" fill="none" stroke="#d4483b" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="460" y="248.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z07</text>
+<text x="560" y="247.0" font-size="13" fill="#d4483b" text-anchor="start">应为 Z13</text>
+<line x1="450" y1="260" x2="550" y2="260" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="460" y="284.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z13</text>
+<line x1="450" y1="296" x2="550" y2="296" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="460" y="320.0" font-size="16" fill="#0b0b0b" text-anchor="start">Z13</text>
+<line x1="450" y1="332" x2="550" y2="332" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="450" y="92" width="100" height="240" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<text x="24" y="372" font-size="14" fill="#52514e" text-anchor="start">「213」是手写的 Z13（Z 常被读成 2）。第 4 行属于第二段，却填成了上一段的 Z07：</text>
+<text x="24" y="393" font-size="14" fill="#52514e" text-anchor="start">这是分段边界错。Z07 也是这张单上的代码，也在厂商表里，校验发现不了；</text>
+<text x="24" y="414" font-size="14" fill="#52514e" text-anchor="start">这一列定稿后不标黄，没有人会再看这一格。</text>
+</svg>
