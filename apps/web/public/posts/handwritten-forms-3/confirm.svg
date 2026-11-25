@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 396" width="680" height="396" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>印证：第一个黄格框里的字等于千问的读数且在人员表里，撤销黄格；第二个框里的字不在两家读数里，第三个读数不在人员表里，都仍标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="395" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="24" y="24" width="632" height="28" rx="0" fill="#f1f0ec"/>
+<text x="34" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">主行占比</text>
+<text x="112" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">框里的字</text>
+<text x="196" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">千问</text>
+<text x="280" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">DeepSeek</text>
+<text x="370" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">人员表</text>
+<text x="520" y="43" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">结果</text>
+<line x1="24" y1="144" x2="656" y2="144" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="34" y="78" font-size="14" fill="#0b0b0b" text-anchor="start">0.92</text>
+<text x="112" y="78" font-size="14" fill="#0b0b0b" text-anchor="start">唐一鸣</text>
+<text x="196" y="78" font-size="14" fill="#0b0b0b" text-anchor="start">唐一鸣</text>
+<text x="280" y="78" font-size="14" fill="#0b0b0b" text-anchor="start">唐乙鸣</text>
+<text x="370" y="78" font-size="13" fill="#0b0b0b" text-anchor="start">有唐一鸣，没有形近的人</text>
+<rect x="518" y="60" width="96" height="30" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528" y="80.0" font-size="14" fill="#0b0b0b" text-anchor="start">唐一鸣</text>
+<text x="34" y="106" font-size="12" fill="#52514e" text-anchor="start">原本标黄：两家读数不同（唐一鸣 / 唐乙鸣）</text>
+<text x="34" y="130" font-size="13" fill="#2f7a3b" text-anchor="start" font-weight="600">三条都满足：撤销黄格，填入唐一鸣</text>
+<line x1="24" y1="236" x2="656" y2="236" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="34" y="170" font-size="14" fill="#0b0b0b" text-anchor="start">0.90</text>
+<text x="112" y="170" font-size="14" fill="#0b0b0b" text-anchor="start">唐一明</text>
+<text x="196" y="170" font-size="14" fill="#0b0b0b" text-anchor="start">唐一鸣</text>
+<text x="280" y="170" font-size="14" fill="#0b0b0b" text-anchor="start">唐乙鸣</text>
+<text x="370" y="170" font-size="13" fill="#0b0b0b" text-anchor="start">有唐一鸣</text>
+<rect x="518" y="152" width="96" height="30" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528" y="172.0" font-size="14" fill="#0b0b0b" text-anchor="start">唐一鸣</text>
+<text x="34" y="198" font-size="12" fill="#52514e" text-anchor="start">原本标黄：两家读数不同（唐一鸣 / 唐乙鸣）</text>
+<text x="34" y="222" font-size="13" fill="#d4483b" text-anchor="start" font-weight="600">框里的字不等于两家读数中的任何一个：仍标黄</text>
+<line x1="24" y1="328" x2="656" y2="328" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="34" y="262" font-size="14" fill="#0b0b0b" text-anchor="start">0.88</text>
+<text x="112" y="262" font-size="14" fill="#0b0b0b" text-anchor="start">程立</text>
+<text x="196" y="262" font-size="14" fill="#0b0b0b" text-anchor="start">程立</text>
+<text x="280" y="262" font-size="14" fill="#0b0b0b" text-anchor="start">程力</text>
+<text x="370" y="262" font-size="13" fill="#0b0b0b" text-anchor="start">没有程立，也没有程力</text>
+<rect x="518" y="244" width="96" height="30" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528" y="264.0" font-size="14" fill="#0b0b0b" text-anchor="start">程立</text>
+<text x="34" y="290" font-size="12" fill="#52514e" text-anchor="start">原本标黄：两家读数不同（程立 / 程力）</text>
+<text x="34" y="314" font-size="13" fill="#d4483b" text-anchor="start" font-weight="600">框里的字等于千问的读数，但不在人员表里：仍标黄</text>
+<rect x="24" y="24" width="632" height="304" rx="0" fill="none" stroke="#d9d6cf" stroke-width="1"/>
+<text x="24" y="356" font-size="13" fill="#52514e" text-anchor="start">三个例子都是操作工一列原本标黄的格。条件：主行占比不低于 0.8；框里的字等于两家读数之一；</text>
+<text x="24" y="376" font-size="13" fill="#52514e" text-anchor="start">这个值在主数据里，人名还要求没有和它只差一个字的其他人。任何一条不满足，这一格仍标黄。</text>
+</svg>

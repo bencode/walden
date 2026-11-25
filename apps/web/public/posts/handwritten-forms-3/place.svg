@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 399" width="680" height="399" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>按笔迹把数放回格子：像素判断第 1、3、5、6、8 格有字；DeepSeek 挤到前面的数按顺序放回千问的格，与千问一致，不标黄；第 5 格有字而两家都空，标黄，候选为空</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="398" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="192.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">8:00</text>
+<text x="240.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">9:00</text>
+<text x="288.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">10:00</text>
+<text x="336.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">11:00</text>
+<text x="384.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">12:00</text>
+<text x="432.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">13:00</text>
+<text x="480.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">14:00</text>
+<text x="528.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">15:00</text>
+<text x="576.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">16:00</text>
+<text x="624.0" y="30" font-size="11" fill="#5b6a80" text-anchor="middle">17:00</text>
+<text x="24" y="64.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">纸面</text>
+<rect x="162" y="36" width="492" height="46" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<rect x="168" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="192.0" y="66.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 192.0 66.0)">0.3</text>
+<rect x="216" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="264" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="288.0" y="66.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 288.0 66.0)">-0.2</text>
+<rect x="312" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="360" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="408" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="432.0" y="66.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 432.0 66.0)">0.1</text>
+<rect x="456" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="504" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="528.0" y="66.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 528.0 66.0)">0.4</text>
+<rect x="552" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="600" y="42" width="48" height="34" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="384.0" y="66.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 384.0 66.0)">0.2</text>
+<path d="M368 61.0 L400 55.0 M368 55.0 L400 61.0" fill="none" stroke="#1f3a6b" stroke-width="1.6"/>
+<text x="24" y="110.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">有字（像素）</text>
+<rect x="168" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="176" y="96" width="32" height="18" rx="3" fill="#c9c6bd"/>
+<rect x="216" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="264" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="272" y="96" width="32" height="18" rx="3" fill="#c9c6bd"/>
+<rect x="312" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="360" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="368" y="96" width="32" height="18" rx="3" fill="#c9c6bd"/>
+<rect x="408" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="416" y="96" width="32" height="18" rx="3" fill="#c9c6bd"/>
+<rect x="456" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="504" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="512" y="96" width="32" height="18" rx="3" fill="#c9c6bd"/>
+<rect x="552" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="88" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="156.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">千问</text>
+<rect x="168" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="192.0" y="156.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="216" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="264" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="288.0" y="156.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="312" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="360" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="408" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="432.0" y="156.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="456" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="504" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528.0" y="156.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="552" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="134" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="202.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">DeepSeek</text>
+<rect x="168" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="192.0" y="202.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="216" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="240.0" y="202.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="264" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="288.0" y="202.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="312" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="336.0" y="202.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="360" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="408" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="456" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="504" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="552" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="180" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="248.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">DeepSeek 放格后</text>
+<rect x="168" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="192.0" y="248.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="216" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="264" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="288.0" y="248.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="312" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="360" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="408" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="432.0" y="248.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="456" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="504" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528.0" y="248.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="552" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="226" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="294.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">投票、按笔迹检查后</text>
+<rect x="168" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="192.0" y="294.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="216" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="264" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="288.0" y="294.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="312" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="360" y="272" width="48" height="34" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="408" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="432.0" y="294.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="456" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="504" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="528.0" y="294.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="552" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="272" width="48" height="34" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="328" font-size="13" fill="#0b0b0b" text-anchor="start">有字的格：第 1、3、5、6、8 格（灰块）。千问读出的数都落在有字的格里，作参照。</text>
+<text x="24" y="349" font-size="13" fill="#0b0b0b" text-anchor="start">DeepSeek 读出的四个数与千问的一一对上，按顺序放进千问的格；之后两家一致，这几格不标黄。</text>
+<text x="24" y="370" font-size="13" fill="#0b0b0b" text-anchor="start">第 5 格有字（写了又划掉），两家都没有读出值：标黄，候选为空。</text>
+</svg>

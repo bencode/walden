@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 298" width="680" height="298" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>一行数被挤到前面几格：纸面上第 1、3、6、8 格有数；千问的位置正确，DeepSeek 把四个数挤进第 1–4 格；投票后第 2、3、4、6、8 格标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="297" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<text x="158.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">8:00</text>
+<text x="210.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">9:00</text>
+<text x="262.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">10:00</text>
+<text x="314.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">11:00</text>
+<text x="366.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">12:00</text>
+<text x="418.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">13:00</text>
+<text x="470.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">14:00</text>
+<text x="522.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">15:00</text>
+<text x="574.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">16:00</text>
+<text x="626.0" y="30" font-size="12" fill="#5b6a80" text-anchor="middle">17:00</text>
+<text x="24" y="65.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">纸面</text>
+<rect x="126" y="36" width="532" height="48" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<rect x="132" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="158.0" y="67.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 158.0 67.0)">0.3</text>
+<rect x="184" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="236" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="262.0" y="67.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 262.0 67.0)">-0.2</text>
+<rect x="288" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="340" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="392" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="418.0" y="67.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 418.0 67.0)">0.1</text>
+<rect x="444" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="496" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="522.0" y="67.0" font-size="18" fill="#1f3a6b" text-anchor="middle" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 522.0 67.0)">0.4</text>
+<rect x="548" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<rect x="600" y="42" width="52" height="36" rx="0" fill="#f6f1e4" stroke="#9fb0c4" stroke-width="0.8"/>
+<text x="24" y="115.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">千问</text>
+<rect x="132" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="158.0" y="115.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="184" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="236" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="262.0" y="115.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="288" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="340" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="392" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="418.0" y="115.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="444" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="496" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="522.0" y="115.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="548" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="92" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="165.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">DeepSeek</text>
+<rect x="132" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="158.0" y="165.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="184" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="210.0" y="165.0" font-size="15" fill="#0b0b0b" text-anchor="middle">-0.2</text>
+<rect x="236" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="262.0" y="165.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.1</text>
+<rect x="288" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="314.0" y="165.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.4</text>
+<rect x="340" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="392" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="444" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="496" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="548" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="142" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="215.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">投票结果</text>
+<rect x="132" y="192" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="158.0" y="215.0" font-size="15" fill="#0b0b0b" text-anchor="middle">0.3</text>
+<rect x="184" y="192" width="52" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="236" y="192" width="52" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="288" y="192" width="52" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="340" y="192" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="392" y="192" width="52" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="444" y="192" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="496" y="192" width="52" height="36" rx="0" fill="#fbe7a1" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="548" y="192" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="600" y="192" width="52" height="36" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="24" y="256" font-size="13" fill="#0b0b0b" text-anchor="start">DeepSeek 读出的四个数都对，位置却挤到了前四格；第 2、3、4、6、8 格两家不同，标黄。</text>
+<text x="24" y="277" font-size="13" fill="#52514e" text-anchor="start">千问的位置是对的，但它是两家之一，不能用来撤销黄格。</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 332" width="680" height="332" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif">
+<title>两家错到同一行：「沈可」写在第 3、4 行之间，主体在第 3 行；两家都把括号读成管三行、把「沈可」读进第 4 行，投票结果一致、没有标黄</title>
+<defs><marker id="arrow-52514e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="arrow-d4483b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d4483b"/></marker><marker id="arrow-2f7a3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f7a3b"/></marker><marker id="arrow-2f6fdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fdf"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="331" rx="8" fill="#fcfcfb" stroke="#d9d6cf"/>
+<rect x="30" y="20" width="154" height="244" rx="3" fill="#f6f1e4" stroke="#e2dccb" stroke-width="1"/>
+<line x1="38" y1="28" x2="176" y2="28" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="56" x2="176" y2="56" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="96" x2="176" y2="96" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="136" x2="176" y2="136" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="176" x2="176" y2="176" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="216" x2="176" y2="216" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="256" x2="176" y2="256" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="38" y1="28" x2="38" y2="256" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="64" y1="28" x2="64" y2="256" stroke="#9fb0c4" stroke-width="0.9"/>
+<line x1="176" y1="28" x2="176" y2="256" stroke="#9fb0c4" stroke-width="0.9"/>
+<text x="120.0" y="47" font-size="12" fill="#5b6a80" text-anchor="middle">操作工</text>
+<text x="51" y="81.0" font-size="12" fill="#5b6a80" text-anchor="middle">1</text>
+<text x="51" y="121.0" font-size="12" fill="#5b6a80" text-anchor="middle">2</text>
+<text x="51" y="161.0" font-size="12" fill="#5b6a80" text-anchor="middle">3</text>
+<text x="51" y="201.0" font-size="12" fill="#5b6a80" text-anchor="middle">4</text>
+<text x="51" y="241.0" font-size="12" fill="#5b6a80" text-anchor="middle">5</text>
+<path d="M72 62 q7 0 7 9 V98.0 q0 6 6 6 q-6 0 -6 6 V137 q0 9 -7 9" fill="none" stroke="#1f3a6b" stroke-width="1.3"/>
+<text x="94" y="104" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 94 104)">罗安平</text>
+<text x="98" y="180" font-size="21" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-3 98 180)">沈可</text>
+<text x="94" y="243" font-size="18" fill="#1f3a6b" text-anchor="start" font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif" transform="rotate(-2 94 243)">唐一鸣</text>
+<rect x="232" y="28" width="96" height="24" rx="0" fill="#f1f0ec"/>
+<text x="242" y="45" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">千问</text>
+<rect x="232" y="56" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="280.0" y="81.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="232" y="96" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="280.0" y="121.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="232" y="136" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="280.0" y="161.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="232" y="176" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="280.0" y="201.0" font-size="15" fill="#0b0b0b" text-anchor="middle">沈可</text>
+<rect x="232" y="216" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="280.0" y="241.0" font-size="15" fill="#0b0b0b" text-anchor="middle">唐一鸣</text>
+<rect x="336" y="28" width="96" height="24" rx="0" fill="#f1f0ec"/>
+<text x="346" y="45" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">DeepSeek</text>
+<rect x="336" y="56" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="384.0" y="81.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="336" y="96" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="384.0" y="121.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="336" y="136" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="384.0" y="161.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="336" y="176" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="384.0" y="201.0" font-size="15" fill="#0b0b0b" text-anchor="middle">沈可</text>
+<rect x="336" y="216" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="384.0" y="241.0" font-size="15" fill="#0b0b0b" text-anchor="middle">唐一鸣</text>
+<rect x="440" y="28" width="96" height="24" rx="0" fill="#f1f0ec"/>
+<text x="450" y="45" font-size="13" fill="#52514e" text-anchor="start" font-weight="500">投票结果</text>
+<rect x="440" y="56" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="488.0" y="81.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="440" y="96" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="488.0" y="121.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<rect x="440" y="136" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="443" y="139" width="90" height="34" rx="2" fill="none" stroke="#d4483b" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="488.0" y="161.0" font-size="15" fill="#0b0b0b" text-anchor="middle">罗安平</text>
+<text x="546" y="161.0" font-size="13" fill="#d4483b" text-anchor="start">真值：沈可</text>
+<rect x="440" y="176" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<rect x="443" y="179" width="90" height="34" rx="2" fill="none" stroke="#d4483b" stroke-width="1.6" stroke-dasharray="5 3"/>
+<text x="488.0" y="201.0" font-size="15" fill="#0b0b0b" text-anchor="middle">沈可</text>
+<text x="546" y="201.0" font-size="13" fill="#d4483b" text-anchor="start">真值：空</text>
+<rect x="440" y="216" width="96" height="40" rx="0" fill="#ffffff" stroke="#d9d6cf" stroke-width="0.8"/>
+<text x="488.0" y="241.0" font-size="15" fill="#0b0b0b" text-anchor="middle">唐一鸣</text>
+<text x="24" y="290" font-size="13" fill="#52514e" text-anchor="start">「沈可」写在第 3、4 行之间，主体在第 3 行；括号的下端也伸进了第 3 行。</text>
+<text x="24" y="311" font-size="13" fill="#0b0b0b" text-anchor="start">两家都把括号读成管三行，把「沈可」读进第 4 行。两份读数一致，投票结果不标黄，两格都错了。</text>
+</svg>
